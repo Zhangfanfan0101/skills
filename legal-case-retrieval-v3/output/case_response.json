@@ -1,0 +1,173 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:43:28",
+    "retrieval_goal": "检索工伤保险待遇纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "上下班途中 交通事故 工伤认定",
+      "casecause": "工伤保险待遇纠纷",
+      "top_k": 10,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索工伤保险待遇纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "上下班途中 交通事故 工伤认定"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "上下班途中 交通事故 工伤认定"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "上下班途中 交通事故 工伤认定",
+    "case_cause": "工伤保险待遇纠纷"
+  },
+  "retrieval_info": {
+    "question": "上下班途中 交通事故 工伤认定",
+    "case_cause": "工伤保险待遇纠纷",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 10,
+    "total_results": 10
+  },
+  "conclusion": {
+    "summary": "根据检索条件「上下班途中 交通事故 工伤认定」，案由：工伤保险待遇纠纷，在2022-2025年度裁判文书库中检索到10件相关案例。",
+    "year_range": "2022-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 10,
+    "case_cause": "工伤保险待遇纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "a50f2180-38b8-48a1-9954-aeb40188bd26",
+      "title": "邹城市温泰商贸有限公司、李西珍等工伤保险待遇纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）鲁0883民初707号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第(六)项规定的“上下班途中”是指合理的上下班时间和合理的上下班路途,以及以“上下班”为目的,故以上下班为目的是上下班途中的实质内容,合理的上下班时间和上下班路途只是上下班途中的时空表现形式",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5be64468-7701-4768-aee5-b2a7017ce315",
+      "title": "邯郸市某某索具制造有限公司、邯郸市人力资源和社会保障局等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）冀04行终465号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第（六）项规定：“职工有下列情形之一的，应当认定为工伤：…（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的；…”该条例第十九条第二款规定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "922a9099-8925-495b-84dd-aebe0138c350",
+      "title": "徐州加林木业有限公司、刘同中工伤保险待遇纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）苏03民终3528号",
+      "referencetype": "",
+      "chunk": "事实和理由:一审法院认定事实不清 。 一审法院认定加林木业公司与刘同中存在劳动关系,且刘同中因上下班途中发生交通事故,因此加林木业公司应当支付刘同中因工伤造成的各项损失 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e8750448-cec2-4fc6-8681-b3b6004091d7",
+      "title": "县人社局;阿某甲;墨玉县某农业科技有限公司;工伤保险资格或者待遇认定二审行政其他",
+      "case_name": "",
+      "case_id": "（2025）新32行终17号",
+      "referencetype": "",
+      "chunk": "；（三）在工作时间和工作场所内，因履行工作职责受到暴力等意外伤害的；（四）患职业病的；（五）因工外出期间，由于工作原因受到伤害或者发生事故下落不明的；（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "17b9e542-fcc5-42cc-bcd3-b25101854424",
+      "title": "邯郸某某制造有限公司与邯郸市人力资源和社会保障局其他行政二审判决书",
+      "case_name": "",
+      "case_id": "（2024）冀04行终414号",
+      "referencetype": "",
+      "chunk": "认定2022年4月1日19时25分许，苗某谱在邯郸某某制造有限公司工作结束后骑电动车下班途中，行至响堂大道青兰连接线与荣达路路口发生交通事故受伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "188752a6-63c5-4ac0-9fbb-aec40064c98d",
+      "title": "努某、和田某科技开发有限公司工伤保险待遇纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）新32民终292号",
+      "referencetype": "",
+      "chunk": "）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的；（七）法律、行政法规规定应当认定为工伤的其他情形。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "54956c65-6287-4639-98cd-b3a900311eba",
+      "title": "晁某某;某某科技有限公司工伤保险待遇纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）宁05民终843号",
+      "referencetype": "",
+      "chunk": "补充：一审适用的法律规定与本案事实不符，晁某某虽然是在上下班的时间段发生的事故，但该事故是因为工作的原因，并不应该适用上下班途中发生交通事故，从而根据工伤保险条例第十四条第六款的规定认为晁某某所受伤害不是工伤",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ec80c4ae-0e8d-4abf-839c-b2ea00fb005c",
+      "title": "胡某;宁波某有限公司工伤保险待遇纠纷一审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）浙0281民初7719号",
+      "referencetype": "",
+      "chunk": "2023年9月1日18时，原告在下班路上与赵君波驾驶的车辆发生碰撞，导致受伤。该起交通事故经余姚市公安局交通警察大队认定，赵君波因未确保安全行驶车辆，承担全部责任，原告无责任。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4a3cf388-2cb3-4a11-92a6-b1ef0183c6d3",
+      "title": "山东某公司与宁某劳动和社会保障行政管理(劳动、社会保障)一审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）鲁0921行初45号",
+      "referencetype": "",
+      "chunk": "微信聊天记录中通知的是10:40上班，第三人从某某公司约30到40分钟时间，但发生交通事故的时间是9:35，不能证明第三人发生交通事故是在上班途中。不应认定为工伤。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3553286d-4c64-4467-99cd-b1dc001b750c",
+      "title": "新龙某公司与张某工伤保险待遇纠纷一审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）陕0623民初776号",
+      "referencetype": "",
+      "chunk": "依据双方当事人陈述和本院采信证据,经审理查明,确认如下法律事实:2023年5月被告在原告处从事支护工作,2023年5月22日被告在乘坐同事车辆去单位途中发生交通事故,被送往子长市人民医院抢救治疗,后被告再未返原告单位上班",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    }
+  ]
+}

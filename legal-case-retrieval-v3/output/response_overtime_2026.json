@@ -1,0 +1,233 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:46:13",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "员工主张加班费劳动争议",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [
+        "上海市"
+      ],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "员工主张加班费劳动争议"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "员工主张加班费劳动争议"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "员工主张加班费劳动争议",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "员工主张加班费劳动争议",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「员工主张加班费劳动争议」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "0b1d76af-fa6a-4d3a-8f97-afb8004e500d",
+      "case_name": "",
+      "case_id": "（2022）沪02民终10757号",
+      "chunk": "另外,公司未按法律规定足额支付加班费,故其有权依据法律规定解除劳动合同并主张经济补偿金 。 其次,其加班是事实,公司应当依法支付加班费 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "59d55820-33dd-4f4d-b841-b01200ba21a9",
+      "case_name": "",
+      "case_id": "（2022）沪0120民初24674号",
+      "chunk": "但截止今日,双方劳动合同已经到期,被告既未安排原告调休,亦未支付原告加班费 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "880e1f3c-69a0-49e9-8fc7-b3c30115af21",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13503号",
+      "chunk": "孟某主张的系8小时之外的加班费，根据某某公司与孟某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3b129a05-a12b-4d3a-99f7-b2eb011fd3c7",
+      "case_name": "",
+      "case_id": "（2024）沪0110民初11214号",
+      "chunk": "本院认为,关于解除,用人单位作出解除劳动合同决定而发生的劳动争议,由用人单位负举证责任 。",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "006aea8b-27c0-4b03-8e0b-b10801570ac3",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初10215号",
+      "chunk": "事实和理由:其一,认定存在加班费差额的前提,必须查明具体的加班时间 。 劳动者主张加班费的,应当就加班事实的存在承担举证责任 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4e335893-c012-4a19-ba65-b3c30115eda9",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初18850号",
+      "chunk": "关于加班费、绩效工资、经济补偿金等,原告的主张无事实和法律依据 。 原告并无证据证明在被告的胁迫下签署协议,且双方经多次协商才签署协议,故该协议书为原、被告真实意思表示,并无无效的情形 。",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "f485e2f7-89bc-474f-957a-b3c30115ab2b",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13500号",
+      "chunk": "林某主张的系8小时之外的加班费，根据某某公司1与林某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5f3ae53f-6dda-4481-b527-b3c30115adf8",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13502号",
+      "chunk": "刘某主张的系8小时之外的加班费，根据某某公司1与刘某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "06623490-170d-423b-aa5a-b18100e87d85",
+      "case_name": "",
+      "case_id": "（2023）沪0113民初23719号",
+      "chunk": "原告主张被告支付加班工资,然提供证据不足以证明其存在加班,结合双方劳动合同具明适用综合工时、被告有相应批文,原告加班费主张不应获得支持 。",
+      "judgeyear": 2023,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "08290ca5-ec99-4dfd-8d27-b2fa00b2145b",
+      "case_name": "",
+      "case_id": "（2024）沪0106民初35552号",
+      "chunk": "故原告亦认为各项加班费应当按照6,500元的标准计算，现不服劳动仲裁裁决，特起诉要求判如所请。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8f41bbdb-1801-43fd-bdb0-b36400ddea32",
+      "case_name": "",
+      "case_id": "（2025）沪0113民初6122号",
+      "chunk": "原告王某向本院提出诉讼请求:1.判决被告向原告支付2011年9月26日至2024年7月12日期间加班费差额人民币(币种下同)240,002元;2.判令被告承担本案诉讼费和律师费 。",
+      "judgeyear": 2025,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "0fe98db3-9ef6-491e-b796-b21a0162f894",
+      "case_name": "",
+      "case_id": "（2024）沪0117民初7964号",
+      "chunk": "不认可原告主张所有费用另按照25%计算赔偿金;第三项加班费,公司有严格的加班制度,在员工入职培训中有告知且也张贴在公司公告栏中,被告认为原告就加班审批制度是知晓的,故原告主张加班并未经审批,不予认可;第四项年终奖",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "93d71604-b198-4e63-a7f2-b1cd00d4350d",
+      "case_name": "",
+      "case_id": "（2024）沪0116民初3953号",
+      "chunk": "本院认为,根据《最高人民法院关于审理劳动争议案件适用法律问题的解释(一)》第三十五条规定,劳动者与用人单位就解除或者终止劳动合同办理相关手续、支付工资报酬、加班费、经济补偿或者赔偿金等达成的协议,不违反法律",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "5ff47109-7651-4c1c-9c3b-b3b400c441a6",
+      "case_name": "",
+      "case_id": "（2025）沪02民终5824号",
+      "chunk": "根据《劳动人事争议仲裁办案规则》第十三条及《中华人民共和国劳动争议调解仲裁法》第六条的规定，与争议事项有关的证据属于用人单位掌握管理的，用人单位应当提供；用人单位不提供的，应当承担不利后果。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4546f5cb-0b1d-4d6f-934a-afe700b50826",
+      "case_name": "",
+      "case_id": "（2023）沪01民终1024号",
+      "chunk": "上诉人主张其工资标准为10,000元,并要求以该工资标准计算未签劳动合同二倍工资差额及加班费,缺乏依据,本院不予采信 。",
+      "judgeyear": 2023,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "029f0261-a7f2-4f60-8913-b3c30115ac4b",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13501号",
+      "chunk": "顾某主张的系8小时之外的加班费，根据某某公司1与顾某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "1ce40205-1bc5-470c-b4ed-b31e00e5de98",
+      "case_name": "",
+      "case_id": "（2025）沪0104民初3114号",
+      "chunk": "本院认为,洪某于2023年3月1日与某某公司1、某某公司3签订《劳动关系转移协议书》,约定洪某的劳动关系自该日起转入某某公司1处,洪某确认其与某某公司3关于劳动关系项下的所有事项(包括但不限于工资、奖金、加班费",
+      "judgeyear": 2025,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "dfad87ad-138e-42f8-8f7c-b3c30115a7d4",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13498号",
+      "chunk": "邱某主张的系8小时之外的加班费，根据某某公司1与邱某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "2f3962bf-27ce-413f-8237-b0ca0168fe3c",
+      "case_name": "",
+      "case_id": "（2023）沪0115民初67428号",
+      "chunk": "原告郑树宏向本院提出诉讼请求:1.判令被告支付原告2021年9月1日至2021年9月30日高某300元;2.判令被告支付原告2021年9月1日至2022年1月29日期间延时加班费20,482.76元;3",
+      "judgeyear": 2023,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "9e801c47-8b4a-4e49-9add-b3c30115a894",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13499号",
+      "chunk": "王某主张的系8小时之外的加班费，根据某某公司1与王某的劳动合同及员工手册的规定，加班是需要申请的，经审批同意之后方能进行加班。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    }
+  ]
+}

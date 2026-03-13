@@ -1,0 +1,213 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:49:25",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费争议 劳动者主张加班费 公司胜诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费争议 劳动者主张加班费 公司胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费争议 劳动者主张加班费 公司胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费争议 劳动者主张加班费 公司胜诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费争议 劳动者主张加班费 公司胜诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 14
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费争议 劳动者主张加班费 公司胜诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到14件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 14,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "72d23cb5-7dd1-422e-84f0-b302002227af",
+      "title": "汪某某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终16558号",
+      "referencetype": "",
+      "chunk": "三、公司方不存在未足额支付加班费的情形。公司方已经足额支付了劳动者的加班费。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "faf21949-d486-4984-9d26-b1260026371c",
+      "title": "深圳市看＊公司、翟某劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终19040号",
+      "referencetype": "",
+      "chunk": "对当事人二审争议的事实及看*公司的上诉请求，本院综合认定如下：\n关于翟某主张的加班工资。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "cc18fd80-7cc9-4d0b-8e81-b301010fd7e8",
+      "title": "徐某某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终2011号",
+      "referencetype": "",
+      "chunk": "根据徐某提交的《被迫解除劳动合同通知书》，徐某主张被迫解除劳动关系的理由为未经本人同意强行将本人调岗至苏州、未按规定与本人签署无固定期限劳动合同、未及时发放工资、未及时足额缴纳社保、未支付未休年休假补贴及加班费",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "51bdc042-f02f-4eb3-8625-b2fe0136b1cc",
+      "title": "郭某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终19254号",
+      "referencetype": "",
+      "chunk": "郭某向一审法院起诉请求：1.盐田某公司向郭某支付2021年3月1日至2023年3月2日期间加班费差额共计44688元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "be487a6a-f224-47a3-ac93-b3c10050bf5c",
+      "title": "杨某;佛山市某责任公司劳动争议二审民事其他",
+      "case_name": "",
+      "case_id": "（2025）粤06民终13322号",
+      "referencetype": "",
+      "chunk": "：“一、确认原告杨某与被告佛山市某责任公司于2024年11月16日至2024年11月30日期间存在劳动关系；二、被告佛山市某责任公司于本判决生效之日起十日内向原告杨某支付工资62.05元、加班费18元；",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b1bcd659-ea23-4cec-8246-b20e0028a50c",
+      "title": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11938号",
+      "referencetype": "",
+      "chunk": "按照《中华人民共和国民事诉讼法》的相关规定，劳动纠纷的举证责任在于用人单位。如果用人单位举证不能或者所举证据不能证明其主张的，应当承担举证不能的不利后果，若非如此，法院应当支持劳动者的诉求。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "20091b9a-9a18-40cf-b1f8-b25000d7351c",
+      "title": "深圳某有限公司、江某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终31647号",
+      "referencetype": "",
+      "chunk": "江某主张加班费，应就加班事实的存在承担举证责任。考勤工具形成的打卡记录只能证明劳动者打卡情况，不能体现具体工作内容。仅凭打卡记录并不能证明加班情况。且某公司已根据其业绩标准足额发放了江某的提成工资。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b5ef433f-2a85-41d2-a795-b3a70109b7a4",
+      "title": "江门某公司;冯某劳动合同纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）粤07民终2179号",
+      "referencetype": "",
+      "chunk": "亦即冯某在入职时已知悉每月工资系已包含了周六加班费，且每周六的加班费按2个工作日的工资计算。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "7588d2d4-7d3b-4179-8bab-b30100f50f9c",
+      "title": "嘉一某有限公司、嘉一某有限公司等劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终17008号",
+      "referencetype": "",
+      "chunk": "关于争议焦点二，涂某主张的2015年1月至2020年7月的加班工资差额，因超出用人单位保管工资表的义务期限，应由涂某承担举证责任。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ab4eae1d-c094-4da2-8d81-b2ff011a6a4b",
+      "title": "玮思某有限公司、吴某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤03民终7766号",
+      "referencetype": "",
+      "chunk": "本院认为，本案的争议焦点为：一、某公司是否应支付吴某均加班费；二、某公司是否应支付吴某均2023年10月1日至2023年10月31日期间的提成；三、某公司是否应支付吴某均2023年11月工资差额以及2023",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "561cc9af-f6b5-45ff-b7b3-b30100f6d3fd",
+      "title": "深圳某有限公司、徐某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤03民终12221、12222号",
+      "referencetype": "",
+      "chunk": "且本案的争议焦点是东某公司是否应按协议约定向徐某支付经济补偿，垫付社保费用一事与本案无关，徐某亦不同意在本案中予以扣除，东某公司应另行解决。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "49f6a714-0247-4110-90b0-b30100f3a691",
+      "title": "裴某某、深圳某有限公司劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终11223号",
+      "referencetype": "",
+      "chunk": "标准工资按深市政府公布的最低工资标准执行，加班费以标准工资为数计算”。裴某主张基本工资5600元，与劳动合同约定相悖，不予支持。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "566755e7-dbfd-4ca8-9fe4-b30100f7aee5",
+      "title": "山湖某有限公司、刘某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤03民终12501号",
+      "referencetype": "",
+      "chunk": "根据《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第三十五条规定，劳动者与用人单位就解除或者终止劳动合同办理相关手续、支付工资报酬、加班费、经济补偿或者赔偿金等达成的协议，不违反法律、行政法规的强制性规定",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3308835d-f835-4a66-bacc-b30100f5038a",
+      "title": "王某某、深圳某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12614号",
+      "referencetype": "",
+      "chunk": "在案证据显示，某甲公司为用人单位，某乙公司为用工单位，某乙公司具有支付加班费的义务，某甲公司作为用人单位对此承担连带责任。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    }
+  ]
+}

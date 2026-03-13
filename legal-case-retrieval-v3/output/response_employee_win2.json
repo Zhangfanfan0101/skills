@@ -1,0 +1,185 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:46:47",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "用人单位支付加班费差额劳动者胜诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [
+        "上海市"
+      ],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "用人单位支付加班费差额劳动者胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "用人单位支付加班费差额劳动者胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "用人单位支付加班费差额劳动者胜诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "用人单位支付加班费差额劳动者胜诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 14
+  },
+  "conclusion": {
+    "summary": "根据检索条件「用人单位支付加班费差额劳动者胜诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到14件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 14,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "4ffc374b-b18f-4f40-83b0-b125016f10ca",
+      "case_name": "",
+      "case_id": "（2023）沪0117民初21275号",
+      "chunk": "》第三十八条以及第四十六条“有下列情形之一的,用人单位应当向劳动者支付经济补偿:(一)劳动者依照本法第三十八条规定解除劳动合同的……”等规定,被告应支付经济补偿给原告 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3072d3ef-578f-4fd2-9f9c-b16201733113",
+      "case_name": "",
+      "case_id": "（2023）沪0117民初20403号",
+      "chunk": "如前所述，因被告存在长期拖欠原告的劳动报酬，安排其平时加班、休息日加班及法定节假日安排工作，但未按照相关法律规定向其支付工资报酬、用人单位规章制度严重违反法律规定，损害劳动者利益等情形，导致原告被迫与被告解除了劳动合同",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b88f2b9a-918b-4f6e-b065-b3c30115cd48",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初16887号",
+      "chunk": "关于加班费差额。劳动法具有社会法属性，在劳动法律规范中，关于工作时间限制、最低工资报酬、加班加点工资等属于强制性规定，用人单位须严格遵守。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4e335893-c012-4a19-ba65-b3c30115eda9",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初18850号",
+      "chunk": "5.2024年2月22日，原告向某某中心3申请调解，因调解不成于2024年3月1日向某某委员会申请仲裁，要求确认与被告之间存在劳动关系，并要求被告支付未签订劳动合同二倍工资差额、加班费、绩效工资差额、经济补偿金",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "afd82a2a-3da2-4947-b084-b1b800fbd986",
+      "case_name": "",
+      "case_id": "（2024）沪01民终3222号",
+      "chunk": "员工手册作为单位用人规章制度，对于加班费的计算标准违反法律法规的规定，损害劳动者的利益，应当向劳动者支付解除劳动合同经济补偿金。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "fa86086c-da15-446b-b471-b162016fbe94",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初23277号",
+      "chunk": "原告杨某向本院提出诉讼请求：1、要求确认2020年11月25日至2021年3月30日期间双方存在劳动关系；2、支付2021年1月1日至2021年3月30日期间延时、双休日的加班费差额1,090元；3、支付违法解除劳动合同赔偿金",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ef6bd838-e7b8-48ea-9d90-b3c30116008d",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初23535号",
+      "chunk": "用人单位应当按照劳动合同约定和国家规定，向劳动者及时足额支付劳动报酬。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e4f134be-eafe-4790-861b-b3c3011658f5",
+      "case_name": "",
+      "case_id": "（2025）沪0114民初8102号",
+      "chunk": "林某向本院提出诉讼请求：要求被告某某公司1支付2022年5月10日至2023年11月30日期间法定休假日加班费15,180元、休息日加班费28,412元、延时加班费3,567元。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8a2c2f48-86f2-4f77-80f4-b3a70145b55b",
+      "case_name": "",
+      "case_id": "（2024）沪0120民初8386号",
+      "chunk": "，该加班费也是劳动报酬，该加班费也是依据最低工资标准计算的，原告在职期间有加班的事实，如没有的话被告在工资明细中不会列明有加班工资这一项。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "aa768675-343f-435e-af1b-b12300b57f60",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初6212号",
+      "chunk": "其三,劳动者与用人单位就支付工资报酬、加班费等达成的协议,不违反法律、行政法规的强制性规定,且不存在欺诈、胁迫或者乘人之危情形的,应当认定有效 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3e5c2990-2022-4b27-986b-b1be016b3213",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初7717号",
+      "chunk": "3.2023年10月20日，被告向某某委员会申请仲裁，要求原告支付违法解除劳动合同赔偿金、年休假工资、工资、加班费等。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b15a504e-0391-44f2-b448-b3c30115c25f",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初1456号",
+      "chunk": "劳动者严重违反劳动纪律和用人单位规章制度的，用人单位可以解除劳动合同，在此情况下用人单位无需支付经济补偿金或赔偿金。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "14cfcad2-e8fe-4d6d-b71d-b3a701479db7",
+      "case_name": "",
+      "case_id": "（2025）沪0120民初1886号",
+      "chunk": "原告在职期间，被告未与原告签订劳动合同，并约定原告每天工作时间从早上9点到晚上10点，且不给任何周末或休息日，也不发平时延时加班费、周某3费及节假日加班费，被告拒绝给原告交社保，且以不签合同为由威胁原告的工作机会",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e32822f5-91f8-492e-bc7d-b3620106540d",
+      "case_name": "",
+      "case_id": "（2024）沪0115民初112542号",
+      "chunk": "年1月1日，期限为两年，每日上班时间不固定，需完成公司安排的工作任务方可下班，凌晨两三点上班的情况很常见，上班无考勤打卡，全年无休，双方约定每月工资税前8,500元，加班费另算，离职前一年月平均工资为7,968.10",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    }
+  ]
+}

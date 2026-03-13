@@ -1,0 +1,273 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:49:47",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费 举证责任 考勤记录",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费 举证责任 考勤记录"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费 举证责任 考勤记录"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费 举证责任 考勤记录",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费 举证责任 考勤记录",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费 举证责任 考勤记录」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "043b27a7-dee0-4673-ab57-b3550101a8c7",
+      "title": "佛山某有限公司、何某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终10091、10092号",
+      "referencetype": "",
+      "chunk": "事实与理由：一、考勤记录表、工资明细表、加班申请单及现场质量巡查记录等证据已充分证明某公司安排工某延长工作时间及休息日、节假日进行加班却未及时足额支付加班工资的事实，一审法院忽视案件事实和举证责任，认定何某甲主张加班费缺乏事实依据明显错误",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f1d73659-cec4-4ab0-b8a7-b15e0024ecfa",
+      "title": "陈某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤20民终439号",
+      "referencetype": "",
+      "chunk": "8、关于加班费。用人单位有保管考勤记录的义务，而A公司既没有提供相应的考勤记录，也没有对陈某提供的考勤记录作出有依据的反驳。9、关于已支付的工资是否包含加班费的问题。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ea4e0c59-cd92-4825-9b6f-b2550108b670",
+      "title": "周某、广州某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终22976号",
+      "referencetype": "",
+      "chunk": "(二)一审法院对加班费、节假日加班工某、未休年假加班工某的事实未查明,且对举证责任分配错误 。",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "0dc27466-bbda-4a8e-a74e-b17a0025a8d0",
+      "title": "许某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤20民终674号",
+      "referencetype": "",
+      "chunk": "许某已履行了日工作时长8.5小时，周工作六天的举证责任：1.有A公司规定许某工作时间的证据，证明A公司规定许某日工作时间为8.5小时。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "da31fce2-d9cf-4865-932f-b0740024726e",
+      "title": "娄国荣、佛山市南海捷品钢管有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终4938号",
+      "referencetype": "",
+      "chunk": "娄国荣提交的证据《考勤记录表》复印件是在娄国荣与捷品公司负责考勤记录的人事主管陈倩梅之间的微信聊天记录中下载下来的,真实性、合法性、关联性均没有任何问题,应当依据《考勤记录表》认定娄国荣的加班情况 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "501a4a7d-dba1-4933-80ab-b2d700a88d23",
+      "title": "广州某有限公司、张某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终29273号",
+      "referencetype": "",
+      "chunk": "1.张×就加班事实已完成举证责任。首先，张×提供了上班期间的打卡考勤记录，且×公司当庭确认打卡情况，并未否认打卡考勤设备存在错误，足以证明张×的上班时长。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "859c1fb6-5709-4b15-94ff-b1d20025c396",
+      "title": "何某、东莞某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤19民终5398号",
+      "referencetype": "",
+      "chunk": "天、月小30天的客观事实成立，按照东莞市最低工资1900元／月标准计算，何某涛平均工资为5618.26元；考勤记录和工资发放台账表原件依照法律规定均由元某某公司提供而未提供，应当承担举证不能的责任，一审法院存在认定事实不清",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "166f6aab-5e46-45d1-a344-b1cc00279f6c",
+      "title": "佛山某公司、唐某劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11862号",
+      "referencetype": "",
+      "chunk": "首先，唐某芳入职岗位为生产助理，为生产部门行政岗，主要负责后勤管理工作，其中亦包括制作、管理该部门考勤记录，故其自行提供的考勤记录对于公司来说真实性并不认可，其留存在某某公司的考勤记录亦有可能在唐某芳离职前被更改",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f6025313-715c-4fcb-815e-b13400253c07",
+      "title": "Ａ公司、袁某跃劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终7343号",
+      "referencetype": "",
+      "chunk": "本案袁某跃系农民工，根据《保障农民工工资支付条例》第十五条规定，A公司承担出勤记录的举证责任，且袁某跃追索劳动报酬应当适用三年的时效。\n本案二审中，双方均未向本院提交新证据。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "52f342dc-6101-44d6-b96c-b1b2002709b8",
+      "title": "李某、中山某公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终7238号",
+      "referencetype": "",
+      "chunk": "最后，结合李某某、某甲公司在仲裁阶段及诉讼阶段的陈述，应认定为2021年4月份的工资应为现金发放，某甲公司仍未完成其举证责任，应承担举证不能的后果，某甲公司没有任何证据证明已向李某某发放了2021年4月份工资",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "20b74366-7ea6-4878-a10b-b21a00276ab2",
+      "title": "江某强、广东某某建设科技有限公司韶关分公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤02民终1422号",
+      "referencetype": "",
+      "chunk": "其次，一审法院认定江某强举证的《考勤表》并不能真实反映江某强的出勤情况，认为是为了应付检查而由某某韶关分公司制作的，该事实认定属于错误事实认定，也违反了民事诉讼法关于举证责任的分配原则。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "2860f8e9-819d-4f09-a73a-b37800b8220d",
+      "title": "邓某某、广东某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤20民终2921号",
+      "referencetype": "",
+      "chunk": "结合邓某甲的上诉意见及本案事实，本案二审的争议焦点为A公司应否向邓某甲支付2021年3月15日至2024年2月25日期间休息日加班费差额、法定节假日加班费差额及应休未休年休假工资差额。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "613cc066-2d4f-41dd-b044-b37800b8214d",
+      "title": "邓某某、广东某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤20民终2922号",
+      "referencetype": "",
+      "chunk": "结合邓某甲的上诉意见及本案事实，本案二审的争议焦点为A公司应否向邓某甲支付2020年12月1日至2024年2月25日期间休息日加班费差额、法定节假日加班费差额及应休未休年休假工资差额。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3f539419-2d7b-4663-98a6-b1af0026c1a8",
+      "title": "黄某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终3607号",
+      "referencetype": "",
+      "chunk": "以A公司提供的有黄某签名(虽然黄某不认可)的2022年3月至6月共4个月工资条和考勤表为例，可证明A公司克扣黄某加班费的事实是清楚明确的，具体如下：2022年3月份考勤表上共上班28天晚上有加班，周六、",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "68b2b694-f4f9-45d1-b27f-b378012ba031",
+      "title": "曹某、中山某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤20民终2348号",
+      "referencetype": "",
+      "chunk": "未休天数认定缺乏依据：A公司提交的考勤记录显示曹某存在多次片面采纳其主张，违反《最高人民法院关于适用<民事诉讼法〉的解释》第九十条关于举证责任的规定。四、原审判决举证责任分配不当，加重A公司负担。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "84cf5382-5297-41a5-9336-b2f300b1f1b9",
+      "title": "沈某某、佛山某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤06民终4483号",
+      "referencetype": "",
+      "chunk": "根据《最高人民法院关于审理劳动争议案件适用法律问题的解释(一)》第四十二条的规定,劳动者主张加班费的,应当就加班事实的存在承担举证责任 。",
+      "judgeyear": 2025,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "73483e41-d961-4f31-9faa-b12c0024a059",
+      "title": "陈某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终2730号",
+      "referencetype": "",
+      "chunk": "、考勤记录、工资条予以证明。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4b7eb317-27e5-4c52-9526-b06e00249ce7",
+      "title": "黄宜兴、中山市春桥电子科技有限公司劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤2071民初102号",
+      "referencetype": "",
+      "chunk": "二、根据被告提供的2020年8月至2022年6月的考勤表可知,原告在平时工作日以及周六日是存在加班的事实,被告依法应当支付相应的加班费 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c0a2ad1c-027b-4790-9a44-b1b7002716c1",
+      "title": "奉某、广东某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终5677号",
+      "referencetype": "",
+      "chunk": "事实和理由：一、一审法院对是否存在拖欠加班费的事实认定不清，证据不足，适用法律错误，且对举证责任的分配错误，请求二审法院改判。",
+      "judgeyear": 2024,
+      "search_type": "feature_native_search"
+    },
+    {
+      "uniqid": "c315a19a-bed2-47ee-aee6-b19a00276cd1",
+      "title": "郭某辉、Ａ公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终6403号",
+      "referencetype": "",
+      "chunk": "关于工资差额、加班费争议。郭某辉主张A公司约定其月工资标准为21000元／月，故A公司应支付其2022年2月24日至3月11日期间的工资差额4145元。",
+      "judgeyear": 2023,
+      "search_type": "feature_native_search"
+    }
+  ]
+}

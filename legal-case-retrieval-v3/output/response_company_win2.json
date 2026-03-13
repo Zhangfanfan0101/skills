@@ -1,0 +1,97 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:18:58",
+    "retrieval_goal": "检索劳动争议案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费 举证责任 劳动者败诉 公司胜诉",
+      "casecause": "劳动争议",
+      "top_k": 10,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [
+        "北京市"
+      ],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动争议案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费 举证责任 劳动者败诉 公司胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费 举证责任 劳动者败诉 公司胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费 举证责任 劳动者败诉 公司胜诉",
+    "case_cause": "劳动争议"
+  },
+  "retrieval_info": {
+    "question": "加班费 举证责任 劳动者败诉 公司胜诉",
+    "case_cause": "劳动争议",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 10,
+    "total_results": 3
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费 举证责任 劳动者败诉 公司胜诉」，案由：劳动争议，在2023-2025年度裁判文书库中检索到3件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 3,
+    "case_cause": "劳动争议"
+  },
+  "cases": [
+    {
+      "uniqid": "4cf526b1-5f79-493c-b3ce-7eda1d443092",
+      "case_name": "",
+      "case_id": "（2024）京03民终8854号",
+      "chunk": "根据《劳动合同法》第四十条第（三）项规定，劳动合同订立时所依据的客观情况发生重大变化，致使劳动合同无法履行，经用人单位与劳动者协商，未能就变更劳动合同内容达成协议的，用人单位提前三十日以书面形式通知劳动者本人或者额外支付劳动者一个月工资后",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f3ca5eb1-ef79-4bcd-9380-ecf6496ac609",
+      "case_name": "",
+      "case_id": "（2024）京03民终8859号",
+      "chunk": "（一）一审法院举证责任分配不当，恶意加重刘某的举证责任，对刘某不利，导致一审判决出现错误，应予纠正。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8a397813-9768-4e4b-976b-d3415a943731",
+      "case_name": "",
+      "case_id": "（2023）京03民终2390号",
+      "chunk": "在作出判决前，当事人未能提供证据或者证据不足以证明其事实主张的，由负有举证证明责任的当事人承担不利的后果。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    }
+  ]
+}

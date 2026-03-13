@@ -1,0 +1,153 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:49:33",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费争议 劳动者主张加班费 公司败诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费争议 劳动者主张加班费 公司败诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费争议 劳动者主张加班费 公司败诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费争议 劳动者主张加班费 公司败诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费争议 劳动者主张加班费 公司败诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 8
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费争议 劳动者主张加班费 公司败诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到8件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 8,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "b1bcd659-ea23-4cec-8246-b20e0028a50c",
+      "title": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11938号",
+      "referencetype": "",
+      "chunk": "按照《中华人民共和国民事诉讼法》的相关规定，劳动纠纷的举证责任在于用人单位。如果用人单位举证不能或者所举证据不能证明其主张的，应当承担举证不能的不利后果，若非如此，法院应当支持劳动者的诉求。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "36fb12fe-7a22-4db4-a7e2-b33200bf45ef",
+      "title": "阳江某有限公司、官某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤17民终793号",
+      "referencetype": "",
+      "chunk": "可能导致其因证据不足而败诉，显失公平；此外，《劳动争议调解仲裁法》第六条阐述的关于“证据由用人单位掌握管理的，用人单位应提供”的立法精神，亦是为了回应劳动者举证困境的实践需求。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "31eeee1c-dd7b-4702-825f-b33200bf440c",
+      "title": "阳江某有限公司、吕某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤17民终792号",
+      "referencetype": "",
+      "chunk": "可能导致其因证据不足而败诉，显失公平；此外，《劳动争议调解仲裁法》第六条规定，阐述的关于“证据由用人单位掌握管理的，用人单位应提供”的立法精神，亦是为了回应劳动者举证困境的实践需求。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "665d9062-1883-4ea0-b27e-b3060137a5a7",
+      "title": "才某某、许某等劳动合同纠纷再审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤20民再48号",
+      "referencetype": "",
+      "chunk": "，在劳动合同中没有绩效工资包含加班费的约定，且从才某提供的排班表可知加班行为属于公司的强制规定，故才某主张的加班费属于法定工资，受法律保护。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f650cd64-0bb1-4a31-883a-b1cc00280b1e",
+      "title": "冼某、佛山某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终3661号",
+      "referencetype": "",
+      "chunk": "根据《最高人民法院关于审理劳动争议案件适用法律问题的解释》（一）第四十二条，劳动者主张加班费的，应当就加班费事实的存在承担举证责任，但劳动者有证据证明用人单位掌握加班事实存在的证据，用人单位不提供的，由用人单位承担不利后果",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "426125b9-f8ec-473b-8a83-b3ae012902e8",
+      "title": "广东某有限公司;蒙某劳动合同纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）粤06民终11165号",
+      "referencetype": "",
+      "chunk": "事实和理由如下：一、关于年休假工资，一审法院认定事实错误，年休假工资应以正常工作时间工资为标准，即应扣除加班费，高温津贴这类非劳动报酬性收入，但一审法院只扣除了加班费，却未扣除高温津贴，得出的正常工资错误",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "01b9eec4-2751-4dcd-be90-b1ac0029c23d",
+      "title": "郑某、某某某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤14民终670号",
+      "referencetype": "",
+      "chunk": "《中华人民共和国劳动合同法》规定，解除或者终止劳动合同属于劳动合同法第四十六条情形之一的，用人单位应当向劳动者支付经济补偿，经济补偿按劳动者在本单位工作的年限，每满一年支付一个月工资。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "0e181de5-18e7-4b3d-ade8-b378011e6751",
+      "title": "黄某、广东某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤20民终2249号",
+      "referencetype": "",
+      "chunk": "三、黄某行为已对公司经营造成实质性损害:1.经济损失：因工资迟发、漏发导致公司额外支出加班费；2.管理秩序破坏：引发业务部门5名员工离职，团队稳定性受损；3.商誉影响：员工投诉事件被发布于社交媒体，对公司形象造成负面影响",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:58:23",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "年终奖劳动争议公司胜诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "上海市"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "年终奖劳动争议公司胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "年终奖劳动争议公司胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "年终奖劳动争议公司胜诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "年终奖劳动争议公司胜诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「年终奖劳动争议公司胜诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "32316850-1c32-42ea-8b4d-b2ea00e5fbd3",
+      "case_name": "",
+      "case_id": "（2024）沪0110民初20900号",
+      "chunk": "原告蔡某不服劳动争议仲裁裁决，向本院提出诉讼请求，要求：1.被告支付2021年1月1日至2021年12月31日年终奖金差额12,600元（48000-35400）；2.被告支付2021年1月1日至2021",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "fcff8c67-af9a-461c-8fdd-b30c01604f7f",
+      "case_name": "",
+      "case_id": "（2025）沪0105民初6028号",
+      "chunk": "关于年终奖的争议 。 原、被告一致确认原告每年按员工基本工资加绩效工资基数的标准支付年终奖,该年终奖性质应属于劳动报酬 。",
+      "judgeyear": 2025,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "0b178826-6529-4b7a-8c94-b33e00e048b3",
+      "case_name": "",
+      "case_id": "（2025）沪0110民初6297号",
+      "chunk": "原告陈某不服劳动争议仲裁裁决，向本院提出诉讼请求：被告支付2023年年终奖85,000元。事实和理由：原告原系被告员工，担任某助理一职。2023年11月30日，双方解除劳动关系。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "95c89f33-fc17-4a50-9be3-b33700e3252a",
+      "case_name": "",
+      "case_id": "（2023）沪0115民初120970号",
+      "chunk": "诉请2，因仲裁阶段在深圳市提起了劳动仲裁，根据深圳经济特区和谐劳动关系促进条例第58条规定劳动争议仲裁案件和诉讼案件，劳动者胜诉的劳动者支付律师费用，可以由用人单位承担，故深圳仲裁裁决原告支付被告熊某律师费并无不当",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ef097206-1b90-4d9b-9b70-b3d9011f85d4",
+      "case_name": "",
+      "case_id": "（2025）沪0109民初16135号",
+      "chunk": "后孟某知晓某甲公司向2024年度在职员工发放年终奖。依据相关法律规定年终奖属劳动报酬，孟某应享有同工同酬权利。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8c9c9d92-23b8-4c90-8bb0-b32400e9f46a",
+      "case_name": "",
+      "case_id": "（2024）沪0104民初19631号",
+      "chunk": "王某向本院提出诉讼请求，要求某某公司1支付：1.2022年度年终奖差额173,500元；2.2023年度年终奖114,250元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "cad232cc-40e9-4b05-a996-b22f00cdc0b0",
+      "case_name": "",
+      "case_id": "（2024）沪0104民初6503号",
+      "chunk": "戴某向本院提出诉讼请求：某某公司1支付2022年年终奖差额85,718元。事实和理由：2019年8月27日，戴某入职某某公司1，并签订劳动合同，双方约定年终奖为166,000元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c9e1f5b8-d20e-4a91-aaf8-b3a2009a74b7",
+      "case_name": "",
+      "case_id": "（2025）沪0120民初13007号",
+      "chunk": "1.原、被告对年终奖无书面约定，且年终奖具有不确定性，被告可根据公司业绩和个人考评结果发放；2.被告于次年4月发放当年度年终奖，原告离职时尚未达到2023年年终奖的支付日期；3.若需支付，被告的财年不是自然年",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "478110f7-fd46-4eeb-a9b4-b2fe00ded601",
+      "case_name": "",
+      "case_id": "（2025）沪0106民初2667号",
+      "chunk": "1.被告主张的年终奖没有合同及法律依据。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "94757ee2-ce11-4519-8e7b-b25600e91771",
+      "case_name": "",
+      "case_id": "（2024）沪0110民初8411号",
+      "chunk": "原告姚某不服劳动争议仲裁裁决，向本院提出诉讼请求，要求：被告支付2022年1月1日至2022年12月31日的年终奖52,000元（26000X2）。事实和理由：原告月工资为26,000元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5b8ba85c-4b90-4c4a-adfe-b25001000e42",
+      "case_name": "",
+      "case_id": "（2024）沪0106民初23824号",
+      "chunk": "具体如下：一、被告应当按比例支付原告在某某公司1工作期间的年终奖。原告从2022年3月开始在被告公司工作，并直至2023年1月30日，但被告公司至今未支付原告在职期间的年终奖。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a29c5cc6-bb32-4a29-a3ed-b05300a9511e",
+      "case_name": "",
+      "case_id": "（2023）沪01民终8134号",
+      "chunk": "一审判决为双方均部分胜诉、部分败诉,王诗僮申请保全的保全费由鼎源公司独自承担明显不合理 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b39346ac-bee3-4a32-92e1-b1bd00e588f6",
+      "case_name": "",
+      "case_id": "（2023）沪0115民初120961号",
+      "chunk": "2023年2月10日，被告向上海市浦东新区劳动人事争议仲裁委员会申请仲裁，其要求原告支付2022年度年终奖金差额96,300元。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "7a25852a-cca4-49fb-bf55-b23400e068c8",
+      "case_name": "",
+      "case_id": "（2024）沪0104民初20304号",
+      "chunk": "张某向本院提出诉讼请求，要求某某公司1支付：1.2022年度年终奖14,916.40元；2.2023年度年终奖14,916.40元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "0295020f-d4ef-4bb0-a719-b3ab004f3122",
+      "case_name": "",
+      "case_id": "（2025）沪0109民初6334号",
+      "chunk": "2024年8月8日，原告向上海市虹口区劳动人事争议仲裁委员会申请仲裁，要求被告支付2023年1月1日至2023年12月31日年终奖差额33,120元。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "934dd956-c86c-4192-be9a-b3a9017f74b3",
+      "case_name": "",
+      "case_id": "（2025）沪01民终11969号",
+      "chunk": "双方就年终奖之争议,一审法院在查明案件事实的基础上,已充分阐明了判决理由,本院予以认同,不再赘述 。",
+      "judgeyear": 2025,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "cda74f65-604c-4739-8f43-b3a7013fc782",
+      "case_name": "",
+      "case_id": "（2025）沪01民终2309号",
+      "chunk": "某某公司1录用通知书中有以下约定：“某某公司1将根据您的工作表现给予一定的奖励和奖金”，公司部门同事表示之前拿到过10万的年终奖，在2022年元旦期间召开的部门会议中，公司副总裁表示微软部门一直是公司的利润最高的部门",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a4745a4b-8808-4239-85c7-b3bb00eb79cc",
+      "case_name": "",
+      "case_id": "（2024）沪0104民初13913号",
+      "chunk": "某某公司1对此真实性不予认可，认为年终奖属于企业自主决定的范畴，企业融资情况也与企业整体盈亏无关。\n本院认为，解决劳动争议，应当根据合法、公正、及时处理的原则，依法维护劳动争议当事人的合法权益。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d46c7529-098a-4b58-a2a0-b10801567ea4",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初2020号",
+      "chunk": "双方签订的上述二份《劳动合同》均没有约定用人单位应支付“年终奖”作为被告履行劳动合同可获得的正常劳动报酬,被告要求原告支付年终奖没有劳动合同约定的依据 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "89f8cb12-a4b1-4854-92a3-b10800c6089d",
+      "case_name": "",
+      "case_id": "（2023）沪0110民初7495号",
+      "chunk": "第三,年终奖金争议 。 关于年终奖金的发放,被告公司有相关制度规定,即销售业务员在一个工作自然年内离职,不满一年工作时间的,无年终奖 。 原告2021年未工作满一年离职,不符合年终奖金发放条件 。",
+      "judgeyear": 2023,
+      "search_type": "feature_original_search"
+    }
+  ]
+}

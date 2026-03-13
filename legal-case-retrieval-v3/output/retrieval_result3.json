@@ -1,0 +1,225 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:47:29",
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "通勤事故 工伤认定",
+      "casecause": "",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "通勤事故 工伤认定"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "通勤事故 工伤认定"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "通勤事故 工伤认定",
+    "case_cause": ""
+  },
+  "retrieval_info": {
+    "question": "通勤事故 工伤认定",
+    "case_cause": "",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "top_k": 15,
+    "total_results": 15
+  },
+  "conclusion": {
+    "summary": "根据检索条件「通勤事故 工伤认定」，在2022-2026年度裁判文书库中检索到15件相关案例。",
+    "year_range": "2022-2026",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 15,
+    "case_cause": ""
+  },
+  "cases": [
+    {
+      "uniqid": "88d69bf6-b0d5-4de0-8c57-b12b00c5bbd9",
+      "title": "杨某某、某某人力资源和社会保障局行政确认行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）新28行终3号",
+      "referencetype": "",
+      "chunk": "2022年8月3日，第三人瑞兴公司提出工伤（亡）认定申请，2022年12月6日，被告巴州人社局受理并进行调查核实，于2023年1月12日作出巴人社工伤字（2022）147号《不予认定工伤决定书》，认定黄俊伟的事故情况不予认定为工伤",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e0fb0e2f-1063-4e39-910d-b3c400d54ad7",
+      "title": "临泉县某某包装有限公司;临泉县人力资源和社会保障局;朱某某工伤保险资格或者待遇认定二审行政其他",
+      "case_name": "",
+      "case_id": "（2025）皖12行终217号",
+      "referencetype": "",
+      "chunk": "根据合同约定及公司的实际运营情况，朱某某的工作时间和通勤方式均有明确规定，但2024年4月3日晚上7点30分发生的交通事故在其通勤途中，且事故情形存在诸多疑点。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b93d6f30-4f03-45e8-aabb-b38000dbf668",
+      "title": "张某某,张某等与某市人力资源服务有限公司工伤保险资格或者待遇认定再审审查和审判监督行政裁定书",
+      "case_name": "",
+      "case_id": "（2025）兵行申22号",
+      "referencetype": "",
+      "chunk": "张某某、张某申请再审称，（一）一、二审判决认定事实不清，证据不足。蔡某某乘坐单位通勤车在上班途中突发疾病死亡，符合《工伤保险条例》第十五条第一款第一项规定的情形，应当认定为工伤。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8d88f773-3785-406e-ae67-b32a0063e9a2",
+      "title": "冯某某、吉木萨尔县某局行政确认行政一审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）新2327行初11号",
+      "referencetype": "",
+      "chunk": "根据第三人在工伤认定阶段提交的通勤车的班次表显示，原告打卡下班有通勤车辆接送。\n第三人某公司对证据1的真实性认可。对证据2、3的真实性认可，证明目的不认可，原告所受伤不属于工伤认定条件，不应认定工伤。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "2748aa73-eebb-46f0-ac5a-b36401874f85",
+      "title": "某食品有限公司与团风县人力资源和社会保障局工伤保险资格或者待遇认定、工伤保险资格或者待遇认定一审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）鄂1181行初49号",
+      "referencetype": "",
+      "chunk": "事故发生后，向被告申请工伤认定，被告于2024年8月9日作出工伤认定决定书，认定该事故属于工伤。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d81e35b5-9ff6-462c-bb3b-b2fc003f5d3f",
+      "title": "满洲里某某木业有限责任公司、满洲里市人力资源和社会保障局等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）内07行终159号",
+      "referencetype": "",
+      "chunk": "李某某在下班途中发生本人无责任交通事故，应当认定为工伤。满洲里市人社局作出的工伤认定事实清楚，证据充分，程序符合法律规定，适用法律、法规正确。某某木业公司诉讼请求不成立，该院不予支持。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a83a6cb1-ce48-4856-9a28-b3a6014ae4cd",
+      "title": "江苏某公司等与刘某工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）苏04行终387号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第六项规定：“在上下班途中，受到非本人主要责任的交通事故伤害的应当认定为工伤。”",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "74b6280d-0eda-47c3-bab7-b3a100fda0ca",
+      "title": "朱某;宁夏某某汽车租赁服务有限公司;宁夏某某化学有限公司合同纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）宁02民终1065号",
+      "referencetype": "",
+      "chunk": "该《认定工伤决定书》在“受伤害经过、医疗救治的基本情况和诊断结论”中载明：“2023年5月25日6时5分许，朱某乘坐公司通勤车上班，上车准备找座位时，车辆突然发动，因没有防备造成受伤。”",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "22e235a2-dc3f-4565-9174-b2dc0063f71c",
+      "title": "浙江某某矿建集团有限公司、哈密市人力资源和社会保障局行政确认行政审判监督行政裁定书",
+      "case_name": "",
+      "case_id": "（2025）新行申125号",
+      "referencetype": "",
+      "chunk": "再审申请人浙江某某矿建集团有限公司（以下简称某某矿建公司）因其诉被申请人哈密市人力资源和社会保障局（以下简称哈密市人社局）、原审第三人刘某工伤保险资格认定一案，不服新疆维吾尔自治区哈密市中级人民法院（2024",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "97fda734-acee-4927-a929-b3c300b39de8",
+      "title": "新疆某保安押运有限公司;乌鲁木齐市人力资源和社会保障局;雄某;工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）新01行终367号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第六项规定：“职工有下列情形之一的，应当认定为工伤：（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的；”第十九条第二款规定：“职工或者其近亲属认为是工伤",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b88a6f56-1057-4582-a211-b30700c65087",
+      "title": "西宁市人力资源和社会保障局;蒲某乙;宋某甲;蒲某甲;青海某有限责任公司工伤保险资格或者待遇认定一审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）青8601行初35号",
+      "referencetype": "",
+      "chunk": "被告西宁市人社局于2023年12月21日作出青海省宁工不认字〔2023〕1617号《不予认定工伤决定书》，认定：蒲某丙同志受到事故伤害（或患职业病），不符合《工伤保险条例》第十四条工伤认定或第十五条视同工伤的情形之规定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c6cf0fa9-a56f-4052-935b-b3b700ed8b9b",
+      "title": "陈某;内蒙古某有限公司;奈曼旗某有限责任公司某分公司等运输合同纠纷一审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）内0581民初3725号",
+      "referencetype": "",
+      "chunk": "2025年2月24日，原告陈某向霍林郭勒市人力资源和社会保障局申请工伤认定，于2025年4月7日，出具霍人社工伤认字［2025］第0023号不予认定工伤决定书，结论为不予认定或者不视同工伤。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ebd769fc-0e34-44f6-92b0-b1e2015a8de7",
+      "title": "张某、张某2等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）兵08行终63号",
+      "referencetype": "",
+      "chunk": "对此，该院认为，《工伤保险条例》第十四条第（六）项规定职工“在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的”，应当认定为工伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a5d3cd6e-40a9-4430-b41b-b3c300535f5f",
+      "title": "朱某;宁夏某某服务有限公司;宁夏某某化学有限公司合同纠纷一审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）宁0221民初3444号",
+      "referencetype": "",
+      "chunk": "经原告核实,事故发生时，被告公司的通勤车司机在未提醒乘车人员就进行发动车辆，并在第三人受伤后未及时将第三人送至医院就诊，被告公司违反了《车辆承运协议书》约定的内容。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3835f6a9-d01f-4bbc-8752-af580031c4a6",
+      "title": "姜振玲、姜雪婷等生命权纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）内0782民初57号",
+      "referencetype": "",
+      "chunk": "姜某某早起急于赶往单位上班,导致事故发生,被告做为姜某某的单位,没有为职工提供上班的通勤车,保障职工上班途中的人身安全,应当承担赔偿责任 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    }
+  ]
+}

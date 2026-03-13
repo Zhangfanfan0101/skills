@@ -1,0 +1,197 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:13:00",
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "侵害商标权 赔偿损失",
+      "casecause": "",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "侵害商标权 赔偿损失"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "侵害商标权 赔偿损失"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "侵害商标权 赔偿损失",
+    "case_cause": ""
+  },
+  "retrieval_info": {
+    "question": "侵害商标权 赔偿损失",
+    "case_cause": "",
+    "judge_year": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 15
+  },
+  "conclusion": {
+    "summary": "根据检索条件「侵害商标权 赔偿损失」，在2020-2025年度裁判文书库中检索到15件相关案例。",
+    "year_range": "2020-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 15,
+    "case_cause": ""
+  },
+  "cases": [
+    {
+      "uniqid": "da348815-ca41-4a7e-9b7c-b38000b89012",
+      "case_name": "",
+      "case_id": "（2025）粤73民终239号",
+      "chunk": "物某公司向一审法院提出诉讼请求：1.都某公司立即停止侵害物某公司商标权的侵权行为；2.都某公司赔偿物某公司经济损失及合理维权费用合计100000元；3.都某公司承担本案诉讼费用。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e5584736-64ef-4677-900d-b380012736e3",
+      "case_name": "",
+      "case_id": "（2025）粤73民终385号",
+      "chunk": "美某公司生产销售含有第35****91号“”注册商标的产品，该商标权已被宣告无效，该商标与赫某电子公司涉案商标构成近似，也侵害了赫某电子公司第8****70号“”注册商标专用权。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e08e5760-3259-4bbe-a7d1-ac410185595d",
+      "case_name": "",
+      "case_id": "（2020）湘0121民初7533号",
+      "chunk": "原告浙江金之秘品牌管理有限公司(以下简称“金之秘公司”)与被告吴冬梅侵害商标权纠纷一案,本院受理后,依法适用简易程序,公开开庭进行了审理 。",
+      "judgeyear": 2020,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5b2926e8-232c-4ae1-9c89-ad7c000b39ef",
+      "case_name": "",
+      "case_id": "（2021）京0105民初25529号",
+      "chunk": "(以下简称利惠公司)与被告李季侵害商标权纠纷一案,本院立案后,依法适用简易程序,公开开庭进行了审理 。 利惠公司委托诉讼代理人敖辰到庭参加了诉讼 。",
+      "judgeyear": 2021,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ee964454-ce73-48b1-9add-b2ea014875b8",
+      "case_name": "",
+      "case_id": "（2024）浙0212民初12879号",
+      "chunk": "原告某乙公司诉请判令：被告即时向原告返还侵害商标权赔偿款计人民币139580元，并支付以139580元为基数自起诉之日2024年2月18日起至实际清偿日止按同期全国银行同业拆借中心公布的一年期贷款市场报价利率的",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "663c568b-8e7f-4801-9e19-b1e90182dc3b",
+      "case_name": "",
+      "case_id": "（2024）豫1621知民初551号",
+      "chunk": "本院认为，本案系侵害商标权纠纷。关于李某蕾是否构成商标侵权的问题。经商标注册，赵某在核定的商品上享有案涉注册商标专用权，赵某有权以自己的名义对侵犯其享有的注册商标专用权的行为提起诉讼。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8fb557bd-04f6-4562-bf7b-b00b002698d6",
+      "case_name": "",
+      "case_id": "（2022）粤1702民初226号",
+      "chunk": "原告武汉熠汇饮科技有限公司(以下简称熠汇饮公司)与被告阳春市十八妹食品商行(下简称十八妹商行)侵害商标权纠纷及不正当竞争纠纷一案,本院于2022年1月5日立案受理后,依法适用普通程序,公开开庭进行了审理",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f4b62b95-36cd-4c65-b42d-b2ec00e42920",
+      "case_name": "",
+      "case_id": "（2025）豫0202知民初537号",
+      "chunk": "原告江苏某公司向本院提出诉讼请求：1、判令被告开封市禹王台区某店立即停止侵害原告第75375632号商标、第17202752号注册商标权；2、判令被告赔偿原告经济损失、维权合理费用等共计10000元；3",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "21c0b61e-ce1c-4b00-b374-adaf0119c7f5",
+      "case_name": "",
+      "case_id": "（2021）粤0104民初23412号",
+      "chunk": "原告向本院提出诉讼请求:1.被告立即停止侵犯原告依法注册的第1104030号、第8618795号“雷朋”文字商标专用权、第6826515号Letbon文字及图组合商标专用权的行为;二、判令被告赔偿原告经济损失",
+      "judgeyear": 2021,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "604efd8e-e130-4c65-b99f-afc100257d4e",
+      "case_name": "",
+      "case_id": "（2023）粤0604民初77号",
+      "chunk": "一、诉辩情况\n原告向本院提出诉讼请求:1.判令被告立即停止侵害原告“海马”系列注册商标专用权;2.判令被告赔偿原告损失及维权合理费用50000元;3.判令被告承担本案所有诉讼费用 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "92a09b45-5a66-4e64-8368-b129015a09dc",
+      "case_name": "",
+      "case_id": "（2022）粤0106民初29176号",
+      "chunk": "广州某商贸商行销售侵害原告商标权的商品 。 广州某商贸商行已注销,被告作为投资人应当承担赔偿损失的法律责任 。",
+      "judgeyear": 2022,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "9b486be8-ef52-408b-a59a-afc100258012",
+      "case_name": "",
+      "case_id": "（2023）粤0604民初75号",
+      "chunk": "一、诉辩情况\n原告向本院提出诉讼请求:1.判令被告立即停止侵害原告“海马”系列注册商标专用权;2.判令被告赔偿原告损失及维权合理费用50000元;3.判令被告承担本案所有诉讼费用 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4c100d93-574b-4b16-a5c1-acd3009e348f",
+      "case_name": "",
+      "case_id": "（2020）豫01知民初542号",
+      "chunk": "鲁小喜、河南省玉凤实业有限公司等与新乡市平原示范区韩董庄镇宇安床垫加工厂等侵害商标权纠纷一审民事判决书\n河南省郑州市中级人民法院\n民事判决书\n(2020)豫01知民初542号\n原告:鲁小喜,女,1967",
+      "judgeyear": 2020,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "470c1e9a-7edb-435a-a9e2-ae5100b4a8af",
+      "case_name": "",
+      "case_id": "（2020）鲁01民初3996号",
+      "chunk": "烟台张裕葡萄酿酒股份有限公司、长岛县海之堂水产品有限公司等侵害商标权纠纷民事一审民事判决书\n山东省济南市中级人民法院\n民事判决书\n(2020)鲁01民初3996号\n原告:烟台张裕葡萄酿酒股份有限公司,住所地山东省烟台市",
+      "judgeyear": 2020,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "87064dd6-cd3f-40b9-957e-afa8014bbb1a",
+      "case_name": "",
+      "case_id": "（2022）宁0104民初6007号",
+      "chunk": "赵仕麟作为商标权人,有权就其认为侵犯其商标权的行为提起诉讼,并提出停止侵权和赔偿损失等诉讼请求,属于对其权利的正当行使 。",
+      "judgeyear": 2022,
+      "search_type": "feature_original_search"
+    }
+  ]
+}

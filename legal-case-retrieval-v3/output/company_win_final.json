@@ -1,0 +1,95 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 09:27:42",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费劳动合同纠纷公司胜诉员工败诉广东",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费劳动合同纠纷公司胜诉员工败诉广东"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费劳动合同纠纷公司胜诉员工败诉广东"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费劳动合同纠纷公司胜诉员工败诉广东",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费劳动合同纠纷公司胜诉员工败诉广东",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 2
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费劳动合同纠纷公司胜诉员工败诉广东」，案由：劳动合同纠纷，在2022-2025年度裁判文书库中检索到2件相关案例。",
+    "year_range": "2022-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 2,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "b1bcd659-ea23-4cec-8246-b20e0028a50c",
+      "title": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11938号",
+      "referencetype": "",
+      "chunk": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2024）粤06民终11938号\n上诉人（原审原告）：郭某勇，男，1978年4月20",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c138247e-a7f0-463f-b8f6-afe20025ba00",
+      "title": "卢瑶、佛山市三水区广海晓教育培训中心有限公司劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤0607民初1771号",
+      "referencetype": "",
+      "chunk": "卢瑶、佛山市三水区广海晓教育培训中心有限公司劳动合同纠纷民事一审民事判决书\n广东省佛山市三水区人民法院\n民事判决书\n(2022)粤0607民初1771号\n原告:卢瑶,男,1995年10月10日出生,布依族",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:48:28",
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "工伤 交通事故 上下班",
+      "casecause": "",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "工伤 交通事故 上下班"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "工伤 交通事故 上下班"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "工伤 交通事故 上下班",
+    "case_cause": ""
+  },
+  "retrieval_info": {
+    "question": "工伤 交通事故 上下班",
+    "case_cause": "",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "top_k": 15,
+    "total_results": 15
+  },
+  "conclusion": {
+    "summary": "根据检索条件「工伤 交通事故 上下班」，在2022-2026年度裁判文书库中检索到15件相关案例。",
+    "year_range": "2022-2026",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 15,
+    "case_cause": ""
+  },
+  "cases": [
+    {
+      "uniqid": "2af0da46-d96c-4f71-b3a7-b2f8003237a2",
+      "title": "陈某、某局等行政一审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）内2201行初14号",
+      "referencetype": "",
+      "chunk": "原告认为，依据《工伤保险条例》第十四条之规定“职工有下列情形之一的应当认定为工伤:（六）在上下班途中，受到非本人主要责任的交通事故伤害的”、《最高人民法院关于审理工伤保险行政案件若干问题的规定》第六条之规定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "acfc579a-6b56-4de1-a2fb-b2f2002666cd",
+      "title": "某某公司、荥阳市人力资源和社会保障局、李某某工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）豫01行终167号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条规定：“职工有下列情形之一的，应当认定为工伤：……（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的……。”",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8f781579-f398-4f09-94b0-b3b5004c1567",
+      "title": "孙某;沈某;沈阳某服务中心工伤保险资格或者待遇认定一审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）辽7101行初339号",
+      "referencetype": "",
+      "chunk": "根据《工伤保险条例》第十四条第六项规定，职工在“上下班途中”受到非本人主要责任的交通事故伤害，应当认定为工伤。本案中，事故发生时间为早上8点11分，属于正常上班时间范围内，且原告确系在前往单位的途中。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "54e4d795-1f70-440a-9b41-b2e9015a14c7",
+      "title": "某市某中心、某局、牛某桥工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）豫07行终13号",
+      "referencetype": "",
+      "chunk": "原审法院认为，《工伤保险条例》第十四条第六项规定：“职工有下列情形之一的，应当认定为工伤：（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的；”本案中，牛某有在上班途中发生交通事故",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a3eaa988-96a3-4eb9-a090-b309015a6892",
+      "title": "张某1、张某2等行政撤销行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）晋08行终220号",
+      "referencetype": "",
+      "chunk": "其于上班打卡后不到两小时，于8时48分左右在回其母亲居住地的路上发生交通事故，属于在工作时间因私外出发生的交通事故，不属于合理时间的上下班途中发生的交通事故。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "059153e7-83bf-4dc4-adb1-b10a0155f046",
+      "title": "周某某与某公司、某县人力资源和社会保障局工伤保险资格或者待遇认定再审审查行政裁定书",
+      "case_name": "",
+      "case_id": "（2023）豫行申2048号",
+      "referencetype": "",
+      "chunk": "1.申请人发生交通事故的时间属于“下班途中的合理时间”。根据周某某的下班打卡记录、医院的入院记录及其与母亲的通话记录，完全能证明周某某发生交通事故的时间属于下班的“合理时间”。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e1614793-6a13-4389-9851-b2f3016334ab",
+      "title": "刘某;郑州市中原区应急管理局;郑州市中原区人力资源和社会保障局工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）豫01行终1003号",
+      "referencetype": "",
+      "chunk": "再查明，张某甲发生事故前曾到中原区建设路某菜市场买菜。\n一审法院认为，本案的争议焦点为张某甲是否符合在下班回家的路上发生非本人主要责任交通事故的工伤情形。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "655d4b3f-241c-4cb5-9bd1-b18e0134316c",
+      "title": "董某甲、江阴市人力资源和社会保障局等工伤保险资格或者待遇认定行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）苏02行终178号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第六项规定，在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的，应当认定为工伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "570b87a4-4731-412c-a932-b19b0113933e",
+      "title": "王某强与海林市人力资源和社会保障局、海林市人民政府工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）黑71行终637号",
+      "referencetype": "",
+      "chunk": "10月19日，某某作出黑海人社伤险不认决字〔2022〕3号《不予认定工伤决定书》，认为王某花所发生的交通事故伤害不符合在上下班途中，受到非本人主要责任的交通事故伤害，不符合《工伤保险条例》第十四条、第十五条认定工伤或者视同工伤的情形",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "dec1f97c-0eb3-483f-a366-b35500aa4b3e",
+      "title": "贵溪市某某环保科技有限公司与鹰潭市人力资源和社会保障局工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）赣71行终9号",
+      "referencetype": "",
+      "chunk": "2024年1月8日，原告回复被告称，汪某荣离开厂门回到宿舍即已完成下班的全过程，其之后的外出发生的交通事故，不属于下班途中发生的交通事故。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "70fb5fb6-3c31-4b4c-8dbd-b1f1004ab2a9",
+      "title": "肖某清与重庆市铜梁区人力资源和社会保障局工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）渝01行终660号",
+      "referencetype": "",
+      "chunk": "本案的争议焦点是肖某清于2023年4月16日因交通事故受到的伤害是否构成工伤，一审法院对此评判如下：\n《工伤保险条例》第十四条第六项规定，在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "042c8222-71e5-4307-add8-b3690027e553",
+      "title": "永宁县人力资源和社会保障局;徐某;宁夏某有限公司工伤保险资格或者待遇认定再审审查和审判监督行政裁定书",
+      "case_name": "",
+      "case_id": "（2025）宁行申94号",
+      "referencetype": "",
+      "chunk": "工人下班步行就可以回到居住地，不需要乘车。黄某等人回到居住地后乘车外出发生交通事故的地点距离居住地将近一公里，发生交通事故的地点不属于上下班途中。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f1ddfaf8-67ad-4122-9974-b30b0099c044",
+      "title": "刘某1、刘某2等工伤保险资格或者待遇认定行政再审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）晋05行再1号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条规定：“职工有下列情形之一的，应当认定为工伤：……（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的。”",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b9afec88-de6f-4a65-91a2-b230018565bf",
+      "title": "西华县人力资源和社会保障局与张某真、纪某军等工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2022）豫16行终33号",
+      "referencetype": "",
+      "chunk": "主要争议焦点是纪某洋发生交通事故的时间是否具有上下班的合理时间，也即纪某洋发生交通事故时是否在上下班途中。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "950c4266-a651-4755-be8e-b10e00631e7f",
+      "title": "兰组织1、兰组织2行政确认行政一审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）甘7101行初55号",
+      "referencetype": "",
+      "chunk": "2021年9月5日8时许,张某骑车上班途中,与他人驾驶车辆发生交通事故受伤,医院诊断为:左足背骨筋膜室综合征;左足第1-4跖骨基底骨折;左足背第2、3跖伸跖肌腱断裂;左足第2、3、4跖骨双侧跖跗韧带断裂",
+      "judgeyear": 2023,
+      "search_type": "feature_original_search"
+    }
+  ]
+}

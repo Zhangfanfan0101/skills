@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-03-09 03:16:20",
+  "api_url": "http://192.168.10.111:9632/simliar/case/es",
+  "request_data": {
+    "question": "不满两周岁子女抚养权归谁",
+    "casecause": "离婚纠纷",
+    "top_k": 10,
+    "court": [],
+    "judgeyear": [
+      2022,
+      2023,
+      2024
+    ],
+    "casetype": [],
+    "procedure": [],
+    "doctype": [],
+    "province": [],
+    "city": [],
+    "courtlevel": []
+  }
+}

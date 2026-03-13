@@ -1,0 +1,233 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:58:15",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "年终奖劳动争议公司胜诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "北京市"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "年终奖劳动争议公司胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "年终奖劳动争议公司胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "年终奖劳动争议公司胜诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "年终奖劳动争议公司胜诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「年终奖劳动争议公司胜诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "a531ef8a-3f8c-4513-9905-42d3755fe365",
+      "case_name": "",
+      "case_id": "（2023）京02民终11955号",
+      "chunk": "事实和理由:年终奖金是企业对劳动者的评价和奖励机制,奖金发放与否,由企业根据自身效益及劳动者的表现自主确定 。 一审法院认定上诉人需支付年终奖,属于事实认定错误、法律适用错误 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e820a444-d9cb-43f7-b22f-f109d05b2cd7",
+      "case_name": "",
+      "case_id": "（2025）京02民终10004号",
+      "chunk": "《最高人民法院关于审理劳动争议案件适用法律若干问题的解释》第十三条规定：“因用人单位作出的开除、除名、辞退、解除劳动合同、减少劳动报酬、计算劳动者工作年限等决定而发生的劳动争议，用人单位负举证责任。”",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "1b48ba93-a778-402f-bce1-08909cb16d05",
+      "case_name": "",
+      "case_id": "（2024）京0101民初20438号",
+      "chunk": "事实和理由：原告不服北京市东城区劳动人事争议仲裁委员会作出的京东劳人仲字XX号裁决书，认为仲裁委以证据不足为由驳回原告年终奖的申请不当，故诉至法院，诉如所请。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "523e2d63-52e1-4cb9-9845-8e5db51d9088",
+      "case_name": "",
+      "case_id": "（2024）京0114民初1702号",
+      "chunk": "原被告双方对2022年年终奖计算方式及数额115,312.5元无争议。对原被告双方无争议的事实，本院予以认定。\n双方对下列要素存在争议：2022年年终是否应当发放。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3ae5a1f3-f6c1-4b87-aa8e-50cc8ba75c54",
+      "case_name": "",
+      "case_id": "（2025）京03民终11717号",
+      "chunk": "六、一审法院对于李某2022年、2023年年终奖金额认定错误，某公司应向李某支付2022年、2023年年终奖47575.50元。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "151ec459-fc29-4ab4-996e-afac45659800",
+      "case_name": "",
+      "case_id": "（2025）京02民终1879号",
+      "chunk": "，无权向某公司主张2023年年终绩效，某公司无义务在欧某已经与公司解除劳动关系后向欧某支付2023年的年终奖，一审判决做出的某公司应向欧某支付30000元的年终奖缺乏事实和法律依据。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5fa6df65-a4ae-4897-a3d0-b3ab00941f77",
+      "case_name": "",
+      "case_id": "（2025）京03民终16747号",
+      "chunk": "某公司辩称，第一，张某主张年终奖没有法律依据，员工手册规定员工因违纪被解除的不享受年终奖，张某不享受年终奖。第二，张某主张加班费没有事实和法律依据，张某已经书面确认所有加班费和工资都已经支付完毕。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9376dc7b-3d44-4ea4-a359-c62649c8b73b",
+      "case_name": "",
+      "case_id": "（2024）京0114民初10361号",
+      "chunk": "年7月1日至2023年10月7日正常工资（10000元/月÷21.75天×70天-实发工资0）=32183.91元，公司拖欠2022年年终奖80000元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a5ef29d7-c120-414a-9343-404e9bf8129b",
+      "case_name": "",
+      "case_id": "（2023）京0115民初13416号",
+      "chunk": "事实和理由(辩称):某电影院线北京分公司违法解除劳动合同且未支付冯某2020年至2022年年终奖 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "11e22b7b-20d7-4489-bb71-e62bbd925639",
+      "case_name": "",
+      "case_id": "（2024）京02民终4323号",
+      "chunk": "双方对于年终奖数额没有任何约定，年终奖亦非固定发放的劳动报酬，而是员工基于其贡献以及用人单位的收益而共享企业发展的红利，与基于劳动者工作量获得的固定岗位工资在性质上存在本质差异，因此年终奖如何发、发多少",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9e70311b-9809-4bff-bd09-66b6aaa98cbf",
+      "case_name": "",
+      "case_id": "（2025）京0102民初7941号",
+      "chunk": "月31日年终奖142500元；4、请求判令被告承担本案诉讼费用。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d84158e2-19c4-4aca-8f64-627fe70a2afd",
+      "case_name": "",
+      "case_id": "（2022）京0107民初2718号",
+      "chunk": "2021年12月2日,石景山区劳动人事争议仲裁委员会作出京石劳人仲字(2022)第15号裁决书,裁决被告向原告支付2021年1月至4月年终奖励十万九千四百二十四元,支付2020年2月24日至2021年10",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "bc142a3e-4e92-4e41-8930-c691b7cb3c6e",
+      "case_name": "",
+      "case_id": "（2022）京0106民初28271号",
+      "chunk": "根据最高院指导性案例183号裁判要旨,年终奖发放前离职的劳动者主张用人单位支付年终奖的,人民法院应当结合劳动者的离职原因、离职时间、工作表现以及对单位贡献程度等因素进行综合考虑 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "1ebc2635-480a-46f4-9287-b392012930a5",
+      "case_name": "",
+      "case_id": "（2025）京03民终12889号",
+      "chunk": "另，徐某主张某公司存在年终奖发放制度，于次年10月份至12月份发放上一年度年终奖，某公司至今仍拖欠其2023年度年终奖未付，为证明其主张，徐某提交了《银行卡/活期存折交易明细清单（筛选查询打印）》、收入纳税明细",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4adad3f2-2cd7-4c8c-b646-160c19a81ed4",
+      "case_name": "",
+      "case_id": "（2023）京0115民初5093号",
+      "chunk": "关于第一项诉讼请求,张旭提交的录取通知书中明确载明年终奖基数为20000元,根据张旭入职时间至少应发放10000元,但亚士漆公司未按约定发放,实际发放年终奖2090元,少发7910元 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "dea0efe6-211b-4d32-b1cd-c5cf2d3f36af",
+      "case_name": "",
+      "case_id": "（2022）京0112民初17575号",
+      "chunk": "原告主张的2021年的年终奖被告不予认可,年终奖是被告公司的福利性待遇,需要根据原告当年度的工作表现决定是否发放以及发放的金额 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "645e0d9d-dbcd-44be-ab22-6d13570ee3e4",
+      "case_name": "",
+      "case_id": "（2025）京0115民初9411号",
+      "chunk": "；即便公司对其他人员没有发放年终奖，也不意味着对王某不应发放年终奖，年终奖的发放标准并不应当以全有或全无的方式进行推断。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "63eb7cce-8696-48bd-9cec-be850e36315d",
+      "case_name": "",
+      "case_id": "（2025）京02民终8001号",
+      "chunk": "年终奖与固定基薪不同，是为了起到激励作用的或有金额，公司从未向刘某承诺其享有固定的年终奖以及年终奖的数额，刘某对此知晓并确认接受。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "027c15d6-7ffc-4748-9e14-9a4fe95a17b5",
+      "case_name": "",
+      "case_id": "（2023）京0115民初2188号",
+      "chunk": "关于年度奖金,年终奖发放根据比例折算没有依据,聘用意向函明确载明年终奖需要根据公司业绩情况及员工个人工作情况去发放,并非固定的数额,也并非一定会发放 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "17acd66a-b074-4b5a-8f64-9763d610e8ae",
+      "case_name": "",
+      "case_id": "（2023）京0115民初15401号",
+      "chunk": "某贸易有限公司以往数年均向叶某发放年终奖也显示出叶某薪酬中固定包含年终奖 。 根据京东集团公众号曾发布的涨薪通知,叶某2022年全年的标准即15.25倍年薪,年终奖为3.25个月工资 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 09:27:52",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费员工胜诉公司支付广东劳动争议",
+      "casecause": "劳动合同纠纷",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费员工胜诉公司支付广东劳动争议"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费员工胜诉公司支付广东劳动争议"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费员工胜诉公司支付广东劳动争议",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费员工胜诉公司支付广东劳动争议",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 15
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费员工胜诉公司支付广东劳动争议」，案由：劳动合同纠纷，在2022-2025年度裁判文书库中检索到15件相关案例。",
+    "year_range": "2022-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 15,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "be487a6a-f224-47a3-ac93-b3c10050bf5c",
+      "title": "杨某;佛山市某责任公司劳动争议二审民事其他",
+      "case_name": "",
+      "case_id": "（2025）粤06民终13322号",
+      "referencetype": "",
+      "chunk": "被上诉人（原审被告）：佛山市某责任公司，住所地广东省佛山市三水区。\n法定代表人：满某，总经理。\n委托诉讼代理人：陈某，女，系该公司员工。\n委托诉讼代理人：明某，男，系该公司员工。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b92c810f-44b2-4f2b-9e69-b30101105723",
+      "title": "何某某、东晟某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12128号",
+      "referencetype": "",
+      "chunk": "何某某、东晟某有限公司劳动合同纠纷二审判决书\n广东省深圳市中级人民法院\n民 事 判 决 书\n（2024）粤03民终12128号\n上诉人（原审原告）：某公司，住所地广东省深圳市福田区，统一社会信用代码914403xxxxxxxxxxxx",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d06d7437-1ec4-4dd2-9963-afd40026041b",
+      "title": "李国多、中山市众智人力资源有限公司等劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤2071民初25490号",
+      "referencetype": "",
+      "chunk": "委托诉讼代理人:高丽容,公司员工 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3308835d-f835-4a66-bacc-b30100f5038a",
+      "title": "王某某、深圳某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12614号",
+      "referencetype": "",
+      "chunk": "王某某、深圳某有限公司等劳动争议二审判决书\n广东省深圳市中级人民法院\n民 事 判 决 书\n（2024）粤03民终12614号\n上诉人（原审被告）：王某，男，1983年8月25日出生，汉族，住湖南省临武县",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b5f6b5ac-c8b5-4dd4-bbfe-afc900270c2e",
+      "title": "马兴暖、中山市哈工朗德智能科技有限公司等劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤2071民初36610号",
+      "referencetype": "",
+      "chunk": "原告马兴暖提出诉讼请求:1.判令哈工公司向原告支付2021年1月至2021年12月加班费5777元;2.判令哈工公司、华粹公司向原告共同支付2021年8月至2021年12月出差报销款6142元 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9ea68000-0a31-49ca-b2e4-b15c0026ae9c",
+      "title": "银某、彩某公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤19民终11810号",
+      "referencetype": "",
+      "chunk": "原审原告银某向原审法院提出诉讼，诉讼请求：1.彩某公司向银某支付违法解除劳动合同的赔偿金166660元；2.彩某公司向银某支付加班费203742元；3.彩某公司向银某支付带薪年休假工资26460元；4.",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f0177417-160e-4a33-a80b-b223002ad15e",
+      "title": "朱某明、佛山市某某学校劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终14417号",
+      "referencetype": "",
+      "chunk": "2021年8月16日至2022年8月22日期间未休年假工资15627.59元；4.请求某某学校支付朱某明2021年8月16日至2022年8月22日期间的延时加班费和周末加班费，及差额工资，共15784.21",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b1bcd659-ea23-4cec-8246-b20e0028a50c",
+      "title": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11938号",
+      "referencetype": "",
+      "chunk": "一审法院审理后，依照《中华人民共和国劳动争议调解仲裁法》第六条、第五十条，《职工带薪年休假条例》第三条，《企业职工带薪年休假实施办法》第十条、第十一条，《广东省工资支付条例》第十六条的规定，作出如下判决",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c8df5ddf-bfa7-4b39-bcac-b37e00afdf2e",
+      "title": "佛山某有限公司、梁某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤06民终6554号",
+      "referencetype": "",
+      "chunk": "《广东省工资支付条例》第二十条规定了支付劳动者加班费的下限但没有规定上限，由此认定梁某梅每月收到嘉某公司支付的工资每一分钱皆为梁某梅当月的合法劳动报酬。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "839c499b-74c8-42b5-84ff-ae83013603f8",
+      "title": "黄华星、深圳市溢旭电子有限公司劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2021）粤0310民初7339号",
+      "referencetype": "",
+      "chunk": "十、律师费:原告向本院提交委托代理合同及发票,证明其支付律师费4,500元,根据《深圳经济特区和谐劳动关系促进条例》第五十八条“劳动争议仲裁和诉讼案件,劳动者胜诉的,劳动者支付的律师代理费用可以由用人单位承担",
+      "judgeyear": 2021,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "72d23cb5-7dd1-422e-84f0-b302002227af",
+      "title": "汪某某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终16558号",
+      "referencetype": "",
+      "chunk": "三、公司方不存在未足额支付加班费的情形。公司方已经足额支付了劳动者的加班费。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8c5daeec-4ac5-40f0-980b-b13400250658",
+      "title": "庞某、甲某司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤20民终3695号",
+      "referencetype": "",
+      "chunk": "最后，支付加班费的标准应该是有无加班的事实，而非有无经过审批。根据相关法律规定，符合“用人单位安排”、“法定标准工作时间以外工作”情形的，用人单位即应当依法支付劳动者加班费。二、关于加班事实。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d81f5ee3-37c1-4553-82ee-b134002505d4",
+      "title": "刘某强、甲某司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤20民终3694号",
+      "referencetype": "",
+      "chunk": "最后，支付加班费的标准应该是有无加班的事实，而非有无经过审批。根据相关法律规定，符合“用人单位安排”、“法定标准工作时间以外工作”情形的，用人单位即应当依法支付劳动者加班费。二、关于加班事实。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "faf21949-d486-4984-9d26-b1260026371c",
+      "title": "深圳市看＊公司、翟某劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终19040号",
+      "referencetype": "",
+      "chunk": "对当事人二审争议的事实及看*公司的上诉请求，本院综合认定如下：\n关于翟某主张的加班工资。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "97af8668-d51e-4b1b-a597-b3c401505d22",
+      "title": "广州某有限公司、李某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终766号",
+      "referencetype": "",
+      "chunk": "（二）关于李某加班费的问题。某公司提供的劳动合同附件四的《员工手册》中第四部分第三章已明确规定关于工作管理的调休制度，李某也清楚并确认所有工作内容。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    }
+  ]
+}

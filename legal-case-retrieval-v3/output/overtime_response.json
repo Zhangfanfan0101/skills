@@ -1,0 +1,273 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 09:27:22",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费劳动合同纠纷广东",
+      "casecause": "劳动合同纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费劳动合同纠纷广东"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费劳动合同纠纷广东"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费劳动合同纠纷广东",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费劳动合同纠纷广东",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费劳动合同纠纷广东」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "c0a2ad1c-027b-4790-9a44-b1b7002716c1",
+      "title": "奉某、广东某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终5677号",
+      "referencetype": "",
+      "chunk": "奉某、广东某公司劳动合同纠纷民事二审民事判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2024）粤06民终5677号\n上诉人（原审被告）：奉某，女。\n委托诉讼代理人：奉某，男，系奉某丈夫。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3f539419-2d7b-4663-98a6-b1af0026c1a8",
+      "title": "黄某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终3607号",
+      "referencetype": "",
+      "chunk": "黄某、Ａ公司劳动合同纠纷民事二审民事判决书\n广东省中山市中级人民法院\n民 事 判 决 书\n（2023）粤20民终3607号\n上诉人（原审原告）：黄某。\n被上诉人（原审被告）：A公司。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5a8be3ee-3f2c-4dd0-88cf-b31e015beaca",
+      "title": "张某某、庞某某等劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤08民终901号",
+      "referencetype": "",
+      "chunk": "张某某、庞某某等劳动合同纠纷二审判决书\n广东省湛江市中级人民法院\n民 事 判 决 书\n（2025）粤08民终901号\n上诉人（原审原告）：庞某，女，汉族，1986年6月22日出生,住广东省湛江市赤坎区，",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f650cd64-0bb1-4a31-883a-b1cc00280b1e",
+      "title": "冼某、佛山某公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终3661号",
+      "referencetype": "",
+      "chunk": "冼某、佛山某公司劳动合同纠纷民事二审民事判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2023）粤06民终3661号\n上诉人（原审原告）：冼某标，男，汉族，1965年7月20日出生，住广东省德庆县",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "0ff45941-464b-493c-93c7-b3bf001f507b",
+      "title": "清远某公司;黄某劳动合同纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）粤18民终3135号",
+      "referencetype": "",
+      "chunk": "清远某公司;黄某劳动合同纠纷二审民事判决书\n广东省清远市中级人民法院\n民 事 判 决 书\n（2025）粤18民终3135号\n上诉人（原审原告）：黄某，男，1985年1月3日出生，汉族，住广东省清远市清新区",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "102fa78a-5422-411a-b8b4-b2f20130a86b",
+      "title": "佛山某有限公司、程某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤06民终5318号",
+      "referencetype": "",
+      "chunk": "佛山某有限公司、程某某劳动合同纠纷二审判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2025）粤06民终5318号\n上诉人（原审原告）：佛山市某物业管理有限公司，住所地广东省佛山市三水区。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "043b27a7-dee0-4673-ab57-b3550101a8c7",
+      "title": "佛山某有限公司、何某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2023）粤06民终10091、10092号",
+      "referencetype": "",
+      "chunk": "佛山某有限公司、何某某劳动合同纠纷二审判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2023）粤06民终10091、10092号\n上诉人（原审被告、原告）：何某甲，男，1981年7月2日出生，",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "89b5b5ea-79da-43fd-b350-b3b100e0970c",
+      "title": "黎某;广东某有限公司劳动合同纠纷二审民事其他",
+      "case_name": "",
+      "case_id": "（2025）粤06民终13990号",
+      "referencetype": "",
+      "chunk": "黎某;广东某有限公司劳动合同纠纷二审民事其他\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2025）粤06民终13990号\n上诉人（原审原告）：黎某，女，1979年11月19日出生，汉族，住广东省佛山市顺德区",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "88f94513-7f0b-4050-a21f-b17b00254a44",
+      "title": "东莞泰某公司、何某劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤19民终580号",
+      "referencetype": "",
+      "chunk": "东莞泰某公司、何某劳动合同纠纷民事二审民事判决书\n广东省东莞市中级人民法院\n民 事 判 决 书\n（2024）粤19民终580号\n上诉人（原审被告）：东莞泰某公司，住所地广东省东莞市。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4b7eb317-27e5-4c52-9526-b06e00249ce7",
+      "title": "黄宜兴、中山市春桥电子科技有限公司劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤2071民初102号",
+      "referencetype": "",
+      "chunk": "黄宜兴、中山市春桥电子科技有限公司劳动合同纠纷民事一审民事判决书\n广东省中山市第一人民法院\n民事判决书\n(2023)粤2071民初102号\n原告:黄宜兴,男,1970年9月27日出生,汉族,住湖南省耒阳市",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3228256f-857e-42df-aebf-b1d30026adcf",
+      "title": "东莞某公司、范某劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤19民终323号",
+      "referencetype": "",
+      "chunk": "东莞某公司、范某劳动合同纠纷民事二审民事判决书\n广东省东莞市中级人民法院\n民 事 判 决 书\n（2023）粤19民终323号\n上诉人（一审原告）：东莞市某某机械设备有限公司，住所：广东省东莞市。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9ea68000-0a31-49ca-b2e4-b15c0026ae9c",
+      "title": "银某、彩某公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤19民终11810号",
+      "referencetype": "",
+      "chunk": "银某、彩某公司等劳动合同纠纷民事二审民事判决书\n广东省东莞市中级人民法院\n民 事 判 决 书\n（2023）粤19民终11810号\n上诉人（原审原告）：银某，女，汉族，居民身份证住址为湖南省邵阳县。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8e66415e-c419-4e49-b64d-b22800295793",
+      "title": "陈某春、深圳市某某贸易有限公司劳动合同纠纷民事申请再审审查民事裁定书",
+      "case_name": "",
+      "case_id": "（2024）粤民申6111号",
+      "referencetype": "",
+      "chunk": "陈某春、深圳市某某贸易有限公司劳动合同纠纷民事申请再审审查民事裁定书\n广东省高级人民法院\n民 事 裁 定 书\n（2024）粤民申6111号\n再审申请人（一审原告、互诉被告；二审上诉人）：陈某春，男，1968",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b5f6b5ac-c8b5-4dd4-bbfe-afc900270c2e",
+      "title": "马兴暖、中山市哈工朗德智能科技有限公司等劳动合同纠纷民事一审民事判决书",
+      "case_name": "",
+      "case_id": "（2022）粤2071民初36610号",
+      "referencetype": "",
+      "chunk": "马兴暖、中山市哈工朗德智能科技有限公司等劳动合同纠纷民事一审民事判决书\n广东省中山市第一人民法院\n民事判决书\n(2022)粤2071民初36610号\n原告:马兴暖,男,1979年3月2日出生,汉族,住广东省阳西县",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3308835d-f835-4a66-bacc-b30100f5038a",
+      "title": "王某某、深圳某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12614号",
+      "referencetype": "",
+      "chunk": "本院认为,本案为劳动合同纠纷 。   \n关于2020年11月20日至2021年9月25日期间延长时间及休息日加班工资差额 。",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "c8df5ddf-bfa7-4b39-bcac-b37e00afdf2e",
+      "title": "佛山某有限公司、梁某某劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤06民终6554号",
+      "referencetype": "",
+      "chunk": "佛山某有限公司、梁某某劳动合同纠纷二审判决书\n广东省佛山市中级人民法院\n民 事 判 决 书\n（2025）粤06民终6554号\n上诉人（原审被告、原审原告）：梁某梅，女，1981年8月10日出生，汉族，住广东省湛江市麻章区",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "22530058-62cb-4fde-89cb-b11c0025e688",
+      "title": "罗某、Ａ公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终4号",
+      "referencetype": "",
+      "chunk": "罗某、A公司劳动合同纠纷民事二审民事判决书\n广东省中山市中级人民法院\n民事判决书\n(2023)粤20民终4号\n上诉人(原审原告):罗某 。  \n \n被上诉人(原审被告):A公司 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f6025313-715c-4fcb-815e-b13400253c07",
+      "title": "Ａ公司、袁某跃劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤20民终7343号",
+      "referencetype": "",
+      "chunk": "Ａ公司、袁某跃劳动合同纠纷民事二审民事判决书\n广东省中山市中级人民法院\n民 事 判 决 书\n（2023）粤20民终7343号\n上诉人（原审被告）：A公司。\n法定代表人：乔某才，该公司总经理。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ac8ae1d0-ef6b-4455-a66d-b0e8002534b4",
+      "title": "清远市稳诚电脑绣花有限公司、黄国强劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤18民终4550号",
+      "referencetype": "",
+      "chunk": "清远市稳诚电脑绣花有限公司、黄国强劳动合同纠纷民事二审民事判决书\n广东省清远市中级人民法院\n民事判决书\n(2023)粤18民终4550号\n上诉人(原审被告):清远市稳诚电脑绣花有限公司 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a7b998fe-4247-45f6-9956-b0e800257637",
+      "title": "清远市稳诚电脑绣花有限公司、廖代兵劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤18民终4809号",
+      "referencetype": "",
+      "chunk": "清远市稳诚电脑绣花有限公司、廖代兵劳动合同纠纷民事二审民事判决书\n广东省清远市中级人民法院\n民事判决书\n(2023)粤18民终4809号\n上诉人(原审被告):清远市稳诚电脑绣花有限公司 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:12:47",
+    "retrieval_goal": "检索商标权纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "商标侵权 赔偿",
+      "casecause": "商标权纠纷",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索商标权纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "商标侵权 赔偿"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "商标侵权 赔偿"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "商标侵权 赔偿",
+    "case_cause": "商标权纠纷"
+  },
+  "retrieval_info": {
+    "question": "商标侵权 赔偿",
+    "case_cause": "商标权纠纷",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "total_results": 0
+  },
+  "conclusion": {
+    "summary": "未检索到符合条件的案例",
+    "possible_reasons": [
+      "检索条件过于严格",
+      "数据库中暂无符合条件案例",
+      "关键词表述方式可调整"
+    ],
+    "suggestions": [
+      "尝试扩大检索年份范围",
+      "调整或简化关键词",
+      "去掉部分筛选条件"
+    ]
+  },
+  "cases": []
+}

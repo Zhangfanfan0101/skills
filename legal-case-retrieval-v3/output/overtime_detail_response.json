@@ -1,0 +1,275 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 09:27:29",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费劳动争议广东",
+      "casecause": "劳动合同纠纷",
+      "top_k": 30,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [
+        "广州市"
+      ],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费劳动争议广东"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费劳动争议广东"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费劳动争议广东",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费劳动争议广东",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 30,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费劳动争议广东」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "15cdd73e-0680-444e-9f4b-b3c40102c027",
+      "title": "广东某有限公司、袁某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终13676号",
+      "referencetype": "",
+      "chunk": "广东某有限公司、袁某某劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终13676号\n上诉人（原审原告、互诉被告）：某有限公司，住所地广东省广州市天河区（仅限办公）",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f287ccb1-c142-48ba-a0ba-b3c40165cd0e",
+      "title": "广州某有限公司、鲍某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终17188号",
+      "referencetype": "",
+      "chunk": "广州某有限公司、鲍某某劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终17188号\n上诉人（原审原告）：鲍某，男，1986年6月16日出生，蒙古族，身份证住址内蒙古通辽市",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ddee2eae-b016-4b8d-95ae-b3c40165cb6d",
+      "title": "张某某、广州某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终18317号",
+      "referencetype": "",
+      "chunk": "张某某、广州某有限公司等劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终18317号\n上诉人（原审原告）：张某，男，1993年8月29日出生，汉族，身份证住址广东省汕头市潮南区成田镇沙陂面前片七巷",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "089f791b-5796-4ed5-b099-b3c40165cadd",
+      "title": "雷某某、北京某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终18318号",
+      "referencetype": "",
+      "chunk": "雷某某、北京某有限公司等劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终18318号\n上诉人（原审原告）：雷某，男，1981年8月8日出生，汉族，身份证住址湖南省耒阳市",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "97af8668-d51e-4b1b-a597-b3c401505d22",
+      "title": "广州某有限公司、李某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终766号",
+      "referencetype": "",
+      "chunk": "广州某有限公司、李某某劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终766号\n上诉人（原审原告）：广州某有限公司，住所地广东省广州市天河区。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "24e22f1b-593e-4b89-ba4d-b3c40102b655",
+      "title": "何某某、江苏某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终13681号",
+      "referencetype": "",
+      "chunk": "何某某、江苏某有限公司等劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终13681号\n上诉人（原审原告）：何某，男，1981年10月13日出生，汉族，身份证住址广东省连州市",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "39bacff0-71d4-4542-8953-b2f80152915e",
+      "title": "广州某股份有限公司、徐某等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终6121号",
+      "referencetype": "",
+      "chunk": "广州某股份有限公司、徐某等劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2025）粤01民终6121号\n上诉人（原审原告）：徐某。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c1fdeb60-e321-43b6-8f7f-b22e002a037a",
+      "title": "王某武、某某保安集团有限公司广东分公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终22979号",
+      "referencetype": "",
+      "chunk": "关于加班工资问题，王某武主张工资标准应按照广州最低工资标准为基数，根据实际上班情况，算出的每月应得工资与某某公司所发放的工资存在差额，故某某公司应足额补发加班费。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "82bfd5f6-57a3-4f76-8f90-b2d700b9053b",
+      "title": "车某某、广某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终6113号",
+      "referencetype": "",
+      "chunk": "车某某、广某某劳动争议二审判决书\n广东省广州市中级人民法院\n民 事 判 决 书\n（2024）粤01民终6113号\n上诉人（原审原告）：车某，男，汉族，住XXX。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "99468589-a479-4119-b6e6-b2ca004a6cef",
+      "title": "胡某某、姜某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终29064号",
+      "referencetype": "",
+      "chunk": "元（其中2022年12月10日至2023年3月2日期间加班费2206.69元、2023年1月1日元旦加班费692.3元、2022年12月10日至2022年12月31日加班工资差额389.4元、2023年",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "90cd36a2-b367-4bf0-8530-b15a00ae4845",
+      "title": "张某恒、广州天力建筑工程有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终7143号",
+      "referencetype": "",
+      "chunk": "《协商解除劳动合同协议书》中双方约定经济补偿金为31600元，除此之外并无任何其他争议，张某恒除该部分款项外还有2020年及2021年未休年假工资，2021年的年终奖及入职到离职的加班费共计约18.2万元尚未支付",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "14936849-8c3e-4631-93df-b3c40165ca14",
+      "title": "曹某某、广某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2025）粤01民终18316号",
+      "referencetype": "",
+      "chunk": "七、关于加班费。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ea4e0c59-cd92-4825-9b6f-b2550108b670",
+      "title": "周某、广州某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终22976号",
+      "referencetype": "",
+      "chunk": "根据《最高人民法院关于民事诉讼证据的若干规定》第六条、《中华人民共和国劳动争议调解仲裁法》第六条规定,对减少劳动报酬的争议事项由用人单位负举证责任;与加班费争议相关的工某记录、考勤记录等属于用人单位掌握的证据",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "b8bd36e4-e950-4174-b79c-b2c900dc5063",
+      "title": "广州某有限公司、曾某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终30370号",
+      "referencetype": "",
+      "chunk": "本院认为,经审查本案为曾某甲与某公司之间因履行、解除劳动合同而发生的纠纷,本案案由应为劳动合同纠纷 。",
+      "judgeyear": 2024,
+      "search_type": "feature_original_search"
+    },
+    {
+      "uniqid": "ddff917b-5dcc-4131-ba6d-b2c90180dc54",
+      "title": "广州某有限公司、缤纷某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终25797号",
+      "referencetype": "",
+      "chunk": "关于2023年1月6日至1月11日加班5小时的加班费。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "514ab201-18ce-4830-8d18-b13700c2ba6f",
+      "title": "童某红、壹某某（某某）某某某某有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤01民终34242号",
+      "referencetype": "",
+      "chunk": "壹某某公司主张童某红月工资为1900元+加班费，2020年月工资调整为2100元+加班费，另有高温补贴，认为童某红在职期间壹某某公司已如数发放了相应的劳动报酬，且童某红至提起仲裁前自始至终都没有对加班费提出过异议",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4192f68d-cdad-491a-abc9-b2c9016ff43d",
+      "title": "谢某某、广州某股份有限公司劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终27367号",
+      "referencetype": "",
+      "chunk": "元(其中工作日加班费69300元，双休日加班费41434元，法定节假日加班费12208元)；7.案件受理费由某公司承担。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "cce02445-20db-47d9-8f68-b0fc00d53625",
+      "title": "黄学锋、广州市弘迅电梯配件有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤01民终27049号",
+      "referencetype": "",
+      "chunk": "三、关于加班费问题 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9bb04e03-8621-44fe-b61f-b2d700b8f93b",
+      "title": "广州某有限责任公司、蓝某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终27883、27884号",
+      "referencetype": "",
+      "chunk": "2021年9月1日至2023年4月14日期间，蓝×在×公司工作期间，存在法定节假日加班且未支付加班费的情况，结合蓝×工资标准核算具体加班费如下：①2021年4月17日-2021年12月31日：5765.75",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "501a4a7d-dba1-4933-80ab-b2d700a88d23",
+      "title": "广州某有限公司、张某某劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤01民终29273号",
+      "referencetype": "",
+      "chunk": "最后，销售岗位并非法律规定的特殊职业，法律未规定薪酬高的劳动者不能获得加班费，故不能以张×的薪酬高于最低工资标准而剥夺其获得加班费的权利。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    }
+  ]
+}

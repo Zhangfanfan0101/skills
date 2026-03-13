@@ -1,0 +1,193 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 08:46:34",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "加班费主张劳动者败诉公司胜诉",
+      "casecause": "劳动合同纠纷",
+      "top_k": 15,
+      "court": [],
+      "judgeyear": [
+        2023,
+        2024,
+        2025
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [
+        "上海市"
+      ],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "加班费主张劳动者败诉公司胜诉"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "加班费主张劳动者败诉公司胜诉"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "加班费主张劳动者败诉公司胜诉",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "加班费主张劳动者败诉公司胜诉",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2023,
+      2024,
+      2025
+    ],
+    "top_k": 15,
+    "total_results": 15
+  },
+  "conclusion": {
+    "summary": "根据检索条件「加班费主张劳动者败诉公司胜诉」，案由：劳动合同纠纷，在2023-2025年度裁判文书库中检索到15件相关案例。",
+    "year_range": "2023-2025",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 15,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "880e1f3c-69a0-49e9-8fc7-b3c30115af21",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13503号",
+      "chunk": "某某公司已经根据足额支付加班费，且孟某在诉讼请求中重复计算2023年4月至11月的加班费。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "6cb36343-1f4b-47c1-917a-b30c00ee1059",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初31326号",
+      "chunk": "原告主张其所获工资中不包含加班费，被告应以15,000元/月为基数支付延时、休息日、法定节假日加班费，并提供了以下证据：1、劳动合同补充协议，载明原告“月薪（标准工资）15,000元”“2.1严格执行劳动法的标准工作时间",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "029f0261-a7f2-4f60-8913-b3c30115ac4b",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13501号",
+      "chunk": "此外，双方一致确认，（1）2023年4月起某某公司1执行加班申请审批制度，顾某自此申请加班并得到某某公司1的批准，某某公司1按1倍计付加班费，且2023年4月起至劳动关系解除期间的加班费差额已经仲裁委裁决确定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "dfad87ad-138e-42f8-8f7c-b3c30115a7d4",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13498号",
+      "chunk": "此外，双方一致确认，（1）2023年4月起某某公司1执行加班申请审批制度，孟辉自此申请加班并得到某某公司1的批准，某某公司1按1倍计付加班费，且2023年4月起至劳动关系解除期间的加班费差额已经仲裁委裁决确定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "5f3ae53f-6dda-4481-b527-b3c30115adf8",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13502号",
+      "chunk": "此外，双方一致确认，（1）2023年4月起某某公司1执行加班申请审批制度，刘猛自此申请加班并得到某某公司1的批准，某某公司1按1倍计付加班费，且2023年4月起至劳动关系解除期间的加班费差额已经仲裁委裁决确定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f485e2f7-89bc-474f-957a-b3c30115ab2b",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13500号",
+      "chunk": "此外，双方一致确认，（1）2023年4月起某某公司1执行加班申请审批制度，林某自此申请加班并得到某某公司1的批准，某某公司1按1倍计付加班费，且2023年4月起至劳动关系解除期间的加班费差额已经仲裁委裁决确定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "9e801c47-8b4a-4e49-9add-b3c30115a894",
+      "case_name": "",
+      "case_id": "（2024）沪0114民初13499号",
+      "chunk": "此外，双方一致确认，（1）2023年4月起某某公司1执行加班申请审批制度，王某自此申请加班并得到某某公司1的批准，某某公司1按1倍计付加班费，且2023年4月起至劳动关系解除期间的加班费差额已经仲裁委裁决确定",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "97d7f220-5a14-45f5-978d-b3a80155116d",
+      "case_name": "",
+      "case_id": "（2025）沪0116民初1335号",
+      "chunk": "本会认为，《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第三十五条规定，劳动者与用人单位就解除或者终止劳动合同办理相关手续、支付工资报酬、加班费、经济补偿或者赔偿金等达成的协议，不违反法律",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "006aea8b-27c0-4b03-8e0b-b10801570ac3",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初10215号",
+      "chunk": "事实和理由:其一,认定存在加班费差额的前提,必须查明具体的加班时间 。 劳动者主张加班费的,应当就加班事实的存在承担举证责任 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b8549bb3-6043-4671-8b2f-b3a70148ebf8",
+      "case_name": "",
+      "case_id": "（2024）沪0116民初12302号",
+      "chunk": "而被告仅以核算的应发工资的70%为基数计算加班费，导致原告未能足额收到加班的劳动报酬，被告应当予以补足。综上所述，被告违法解除劳动合同、未足额支付加班费，严重侵害了原告的合法权益。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b88f2b9a-918b-4f6e-b065-b3c30115cd48",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初16887号",
+      "chunk": "余某入职某某公司1时双方约定，加班费以劳动合同约定的综合工资标准为基数、以1为系数核发。某某公司1已经按此约定足额支付劳动报酬，且余某从未提出过任何异议或主张，故某某公司1不应再支付加班费。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4db60ba1-eee4-4980-8d99-b1be00eafea3",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初29659号",
+      "chunk": "被告某某公司1辩称，关于延时加班费，原告未提供任何关于延时加班的证据，且劳动合同明确约定原告如需加班的，需要向公司负责人或者部门负责人申请并征得书面同意，否则不视为有效加班。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d99f1c35-bb93-4225-bb64-b3c301161f89",
+      "case_name": "",
+      "case_id": "（2023）沪0114民初28170号",
+      "chunk": "综上分析，原告解除与被告的劳动关系，缺乏依据，属于违法解除，应依照法律规定的经济补偿标准的二倍向劳动者支付赔偿金。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "92a20ae3-1493-41fb-90ec-b3a70148ed5a",
+      "case_name": "",
+      "case_id": "（2024）沪0116民初12304号",
+      "chunk": "2023年2月奖金375元、工作日加班费3,097.50元、双休日加班费490元、其他调整扣减160元。2023年3月奖金375元、工作日加班费2,178.75元。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "c260652b-e1be-4613-821a-b3c30116c306",
+      "case_name": "",
+      "case_id": "（2025）沪0114民初7940号",
+      "chunk": "陈某向本院提出诉讼请求，要求被告某某公司1支付：1.违法终止劳动合同赔偿金差额196,638元（32753.75×6×2倍，已经支付196,407元）；2.2023年8月26日至2023年12月31日期间休息日加班费",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    }
+  ]
+}

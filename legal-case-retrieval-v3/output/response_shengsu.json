@@ -1,0 +1,173 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-09 09:31:23",
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "员工主张加班费 公司胜诉 驳回加班费请求",
+      "casecause": "劳动合同纠纷",
+      "top_k": 10,
+      "court": [],
+      "judgeyear": [
+        2024,
+        2025,
+        2026
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [
+        "广东省"
+      ],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "检索劳动合同纠纷案例",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "员工主张加班费 公司胜诉 驳回加班费请求"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "员工主张加班费 公司胜诉 驳回加班费请求"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "员工主张加班费 公司胜诉 驳回加班费请求",
+    "case_cause": "劳动合同纠纷"
+  },
+  "retrieval_info": {
+    "question": "员工主张加班费 公司胜诉 驳回加班费请求",
+    "case_cause": "劳动合同纠纷",
+    "judge_year": [
+      2024,
+      2025,
+      2026
+    ],
+    "top_k": 10,
+    "total_results": 10
+  },
+  "conclusion": {
+    "summary": "根据检索条件「员工主张加班费 公司胜诉 驳回加班费请求」，案由：劳动合同纠纷，在2024-2026年度裁判文书库中检索到10件相关案例。",
+    "year_range": "2024-2026",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 10,
+    "case_cause": "劳动合同纠纷"
+  },
+  "cases": [
+    {
+      "uniqid": "72d23cb5-7dd1-422e-84f0-b302002227af",
+      "title": "汪某某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终16558号",
+      "referencetype": "",
+      "chunk": "三、公司方不存在未足额支付加班费的情形。公司方已经足额支付了劳动者的加班费。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "be487a6a-f224-47a3-ac93-b3c10050bf5c",
+      "title": "杨某;佛山市某责任公司劳动争议二审民事其他",
+      "case_name": "",
+      "case_id": "（2025）粤06民终13322号",
+      "referencetype": "",
+      "chunk": "2024年11月16日至2024年11月30日期间存在劳动关系；二、被告佛山市某责任公司于本判决生效之日起十日内向原告杨某支付工资62.05元、加班费18元；三、驳回原告杨某的其他诉讼请求。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b1bcd659-ea23-4cec-8246-b20e0028a50c",
+      "title": "郭某勇、佛山市顺德区安某运输服务有限公司劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤06民终11938号",
+      "referencetype": "",
+      "chunk": "元；三、驳回原告郭某勇的其他诉讼请求。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b5ef433f-2a85-41d2-a795-b3a70109b7a4",
+      "title": "江门某公司;冯某劳动合同纠纷二审民事判决书",
+      "case_name": "",
+      "case_id": "（2025）粤07民终2179号",
+      "referencetype": "",
+      "chunk": "亦即冯某在入职时已知悉每月工资系已包含了周六加班费，且每周六的加班费按2个工作日的工资计算。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b92c810f-44b2-4f2b-9e69-b30101105723",
+      "title": "何某某、东晟某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12128号",
+      "referencetype": "",
+      "chunk": "委托诉讼代理人：付某，该公司员工。\n委托诉讼代理人：左某，广东某律师事务所律师。\n被上诉人（原审被告）：何某。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "7588d2d4-7d3b-4179-8bab-b30100f50f9c",
+      "title": "嘉一某有限公司、嘉一某有限公司等劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终17008号",
+      "referencetype": "",
+      "chunk": "26061.25元；七、某甲公司于判决生效之日起十日内向涂某支付律师费2254.66元；八、某乙公司对某甲公司上述确定的债务承担连带清偿责任；九、驳回涂某其他诉讼请求；十、驳回某甲公司、某乙公司的其他诉讼请求",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3308835d-f835-4a66-bacc-b30100f5038a",
+      "title": "王某某、深圳某有限公司等劳动争议二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终12614号",
+      "referencetype": "",
+      "chunk": "元；三、驳回某甲公司的其他诉讼请求。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "8701eebe-50dc-4c75-970a-b1250029b68a",
+      "title": "吴某、深圳某公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2023）粤03民终3833号",
+      "referencetype": "",
+      "chunk": "委托诉讼代理人:赵某,该公司员工 。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f066d82e-557c-4603-89fb-b1e2014fb713",
+      "title": "代某、天津某公司等劳动合同纠纷民事二审民事判决书",
+      "case_name": "",
+      "case_id": "（2024）粤20民终3437号",
+      "referencetype": "",
+      "chunk": "综上，请求驳回上诉，维持原判。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "cc18fd80-7cc9-4d0b-8e81-b301010fd7e8",
+      "title": "徐某某、深圳某有限公司劳动合同纠纷二审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤03民终2011号",
+      "referencetype": "",
+      "chunk": "根据徐某提交的《被迫解除劳动合同通知书》，徐某主张被迫解除劳动关系的理由为未经本人同意强行将本人调岗至苏州、未按规定与本人签署无固定期限劳动合同、未及时发放工资、未及时足额缴纳社保、未支付未休年休假补贴及加班费",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    }
+  ]
+}

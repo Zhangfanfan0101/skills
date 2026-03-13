@@ -1,0 +1,275 @@
+{
+  "report_header": {
+    "title": "类案检索报告",
+    "generated_at": "2026-03-12 11:47:44",
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "api_url": "http://192.168.10.111:9632/simliar/case/es",
+    "request_params": {
+      "question": "非本人主要责任 交通事故 工伤",
+      "casecause": "",
+      "top_k": 20,
+      "court": [],
+      "judgeyear": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "casetype": [],
+      "procedure": [],
+      "doctype": [],
+      "province": [],
+      "city": [],
+      "courtlevel": []
+    }
+  },
+  "intent_analysis": {
+    "retrieval_goal": "类案检索",
+    "verification_criteria": "命中条件：案例内容包含用户问题中的关键词",
+    "keyword_groups": [
+      {
+        "name": "原始问题",
+        "keywords": [
+          "非本人主要责任 交通事故 工伤"
+        ],
+        "weight": 1.0
+      },
+      {
+        "name": "核心关键词",
+        "keywords": [
+          "非本人主要责任 交通事故 工伤"
+        ],
+        "weight": 0.9
+      }
+    ],
+    "question": "非本人主要责任 交通事故 工伤",
+    "case_cause": ""
+  },
+  "retrieval_info": {
+    "question": "非本人主要责任 交通事故 工伤",
+    "case_cause": "",
+    "judge_year": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "top_k": 20,
+    "total_results": 20
+  },
+  "conclusion": {
+    "summary": "根据检索条件「非本人主要责任 交通事故 工伤」，在2022-2026年度裁判文书库中检索到20件相关案例。",
+    "year_range": "2022-2026",
+    "keywords_used": [
+      "原始问题",
+      "核心关键词"
+    ],
+    "total_cases": 20,
+    "case_cause": ""
+  },
+  "cases": [
+    {
+      "uniqid": "4e874e1b-e19b-4d57-a070-b1e20180b705",
+      "title": "王某与曲某劳动和社会保障行政管理(劳动、社会保障)二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）云03行终61号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第（六）项规定，职工在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的，应当认定为工伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "957718a0-b957-4419-b8ef-b31700b99550",
+      "title": "ＸＸ县人力资源和社会保障局、杜某等工伤保险资格或者待遇认定行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）晋11行终48号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第一款第（六）项规定，职工有下列情形之一的，应当认定为工伤：（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "6245f723-76a9-4aa3-a093-b18000d69c4f",
+      "title": "王某与锦州市人力资源和社会保障局不予认定工伤行政再审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）辽行再6号",
+      "referencetype": "",
+      "chunk": "参照《工伤保险条例》第十四条的规定，职工在上下班途中，受到非本人主要责任的交通事故伤害的，应当认定为工伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "a5697916-cba5-4dff-bbfe-b3c300ff0c2c",
+      "title": "城某甲;城某乙;王某丙工伤保险资格或者待遇认定二审行政其他",
+      "case_name": "",
+      "case_id": "（2025）陕07行终49号",
+      "referencetype": "",
+      "chunk": "《工伤保险条例》第十四条第六项规定：“职工在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的，应当认定为工伤。”",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d4b4e9d1-95f8-44c9-9389-b34d009eb2d7",
+      "title": "中山某有限公司、中某某等工伤保险资格或者待遇认定一审判决书",
+      "case_name": "",
+      "case_id": "（2024）粤2071行初1204号",
+      "referencetype": "",
+      "chunk": "被告市人社局诉称，一、董某是在上下班途中，受到非本人主要责任的交通事故的，应予以认定为工伤。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "ae164057-b632-4785-9b81-b1200181aab7",
+      "title": "东营某公司、某管委会等行政一审行政判决书",
+      "case_name": "",
+      "case_id": "（2022）鲁0591行初40号",
+      "referencetype": "",
+      "chunk": "若依据证据及调查结果无法确定劳动者所受交通事故伤害属非本人主要责任的,应当作出不予认定工伤决定 。  \n \n证据三、二审XX判决书及案件比对表各一份 。",
+      "judgeyear": 2022,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e17ef252-58f2-4098-94b0-b2ed0056c112",
+      "title": "章某玲与襄阳市襄州区某某和社会保障局工伤保险资格或者待遇认定、工伤保险资格或者待遇认定再审审查行政裁定书",
+      "case_name": "",
+      "case_id": "（2024）鄂行申822号",
+      "referencetype": "",
+      "chunk": "二、赵某生系下班途中发生交通事故，且仅负事故同等责任，符合工伤认定条件。三、赵某生死亡是多种原因导致的，即便赵某生醉酒是案涉交通事故的原因之一，但仅是次要原因，且不是直接原因。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d60b0e6e-7aba-4d9c-be61-b1d8018162be",
+      "title": "赵某与洛某工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）豫03行终64号",
+      "referencetype": "",
+      "chunk": "，认为耿某上班途中受到非本人主要责任的交通事故伤害，应认定为工伤（工亡）。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d33e1f55-d418-411e-86dd-b1be017d640d",
+      "title": "娄某与红某劳动和社会保障行政管理(劳动、社会保障)二审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）云25行终85号",
+      "referencetype": "",
+      "chunk": "一审判决认定上诉人不是受到非本人主要责任的交通事故伤害，不属于可以认定工伤的情形系认定事实不清，适用法律错误。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "e8750448-cec2-4fc6-8681-b3b6004091d7",
+      "title": "县人社局;阿某甲;墨玉县某农业科技有限公司;工伤保险资格或者待遇认定二审行政其他",
+      "case_name": "",
+      "case_id": "（2025）新32行终17号",
+      "referencetype": "",
+      "chunk": "；（三）在工作时间和工作场所内，因履行工作职责受到暴力等意外伤害的；（四）患职业病的；（五）因工外出期间，由于工作原因受到伤害或者发生事故下落不明的；（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "f463a415-73fe-4cf6-b68d-b2fe016265b7",
+      "title": "贵州某某实业有限责任公司与贵阳市人力资源和社会保障局工伤保险资格或者待遇认定二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）黔01行终498号",
+      "referencetype": "",
+      "chunk": "本局认为：杜某某是在上班途中，受到非本人主要责任的交通事故伤害。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "3351dc4e-eeaf-4e6d-b5d8-b300017dd313",
+      "title": "杨某山、河北省人力资源和社会保障厅等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）冀01行终120号",
+      "referencetype": "",
+      "chunk": "双方争议的焦点是原告杨某山所受伤害是否符合《工伤保险条例》第十四条第一款第（六）项即非本人主要责任交通事故的规定。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "4eca612d-f412-4f79-8fb8-b13a0025492a",
+      "title": "东莞市某信物业管理有限公司、东莞市人力资源和社会保障局等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）粤19行终643号",
+      "referencetype": "",
+      "chunk": "《广东省工伤保险条例》第九条第六项规定：“职工有下列情形之一的，应当认定为工伤：（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的；”上下班途中是指职工在合理时间范围内",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "b552d9a9-0cfb-4e14-8b8d-b14100229221",
+      "title": "游某凤与光泽县某某和社会保障局劳动和社会保障行政管理(劳动、社会保障)再审审查行政裁定书",
+      "case_name": "",
+      "case_id": "（2023）闽行申526号",
+      "referencetype": "",
+      "chunk": "案涉事故发生时，除官建华在事发现场而无第三方，故案涉交通事故为单方交通事故，应由其本人承担事故的全部责任，故被申请人不予认定为工伤。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "dd677957-9be5-4f76-b230-b0fa0181cd3d",
+      "title": "东营鹏某公司、东营经济技术开发区管理委员会等行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2023）鲁05行终82号",
+      "referencetype": "",
+      "chunk": "涉案工伤认定中，开发区管委会系以张某是在上班途中，受到非本人主要责任的交通事故伤害，依据上述第六项规定情形认定为工伤。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "2599a81c-d620-4b75-bc61-b2ec005577f1",
+      "title": "乐某群与宜昌市某某和社会保障局劳动和社会保障行政管理(劳动、社会保障)一审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）鄂0502行初122号",
+      "referencetype": "",
+      "chunk": "根据《中华人民共和国工伤保险条例》第十四条规定：“职工有下列情形之一的，应当认定为工伤：（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的”，被告不予认定工伤不当",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "d76a70b6-3429-48c1-8514-b3060150a3f5",
+      "title": "杨某、太组织1等工伤保险资格认定及行政复议行政二审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）晋01行终350号",
+      "referencetype": "",
+      "chunk": "被上诉人太组织1辩称，一、上诉人自己骑车摔伤不属于法律法规规定的“受到非本人主要责任的交通事故”情形。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "1f08131e-a461-46f8-85b1-b1e200af4420",
+      "title": "宜春某公司与宜某工伤保险资格或者待遇认定一审行政判决书",
+      "case_name": "",
+      "case_id": "（2024）赣0923行初32号",
+      "referencetype": "",
+      "chunk": "（六）在上下班途中，受到非本人主要责任的交通事故或者城市轨道交通、客运轮渡、火车事故伤害的。",
+      "judgeyear": 2024,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "0655c021-edb0-4092-ab81-b1240182e30c",
+      "title": "苏某岭、承德市某某和社会保障局等行政申请再审审查行政裁定书",
+      "case_name": "",
+      "case_id": "（2023）冀行申545号",
+      "referencetype": "",
+      "chunk": "申请人与原审第三人存在劳动关系，下班途中发生非本人主要责任的交通事故，依据《工伤保险条例》第十四条第（六）项规定，申请人受伤属于工伤。",
+      "judgeyear": 2023,
+      "search_type": "native_content_search"
+    },
+    {
+      "uniqid": "912360d5-37d5-4da7-8750-b2ea00d2f8af",
+      "title": "尤某文;郑州市人力资源和社会保障局;国网某供电公司工伤保险资格或者待遇认定再审行政判决书",
+      "case_name": "",
+      "case_id": "（2025）豫行再11号",
+      "referencetype": "",
+      "chunk": "尤某文和某供电公司与郑州市人社局的核心争议点是尤某文受伤是否属于“受到非本人主要责任的交通事故受伤”。",
+      "judgeyear": 2025,
+      "search_type": "native_content_search"
+    }
+  ]
+}
